@@ -1,0 +1,282 @@
+[
+    {
+        "slide_number": 1,
+        "content": [
+            "Introduction to CS106AX",
+            "Jerry Cain\nCS106AX\nSeptember 23, 2026\nslides courtesy of Eric Roberts"
+        ]
+    },
+    {
+        "slide_number": 2,
+        "content": [
+            "Course Description",
+            "CS106AX: Programming Methodologies in JavaScript and Python\u000b\nIntroduction to the engineering of computer and web applications emphasizing modern software engineering principles: object-oriented design, decomposition, encapsulation, abstraction, and testing. This course targets an audience with prior programming experience, and that prior experience is leveraged so material can be covered in greater depth.\n\nTerms: Aut | Units: 3-5 | UG Reqs: WAY-FR | Grading: Letter or CR/NC",
+            "CS106AX satisfies the same WAYS requirements as any other CS106A offering."
+        ]
+    },
+    {
+        "slide_number": 3,
+        "content": [
+            "Why JavaScript?",
+            "When CS106A adopted Java some 20 years ago, we—along with many others in the computing industry—expected it to become the \"language of the web\".",
+            "That didn’t happen.",
+            "Today, the core \"language of the web\" is JavaScript, which has become one of the most widely used languages in industry.\nJavaScript expert Douglas Crockford has described JavaScript—provided you avoid some of its most frequently abused features—as \"a beautiful, elegant, highly expressive language\". I believe it’s also ideal for a first course in programming.\nIt is, in my opinion, syntactically easier to learn than Java.\nThere are far fewer details to memorize.\nIt offers cleaner implementations of many key language features.\nIt is natively supported by every major web browser.",
+            "😢"
+        ]
+    },
+    {
+        "slide_number": 4,
+        "content": [
+            "Why Python?",
+            "Stanford’s CS106A course adopted Python as its language of instruction about seven years ago.\nThe name of the language does not come from the snake that graces the cover of the O’Reilly book but rather is \u000ba tribute to Monty Python’s Flying Circus.\nJavaScript dominates the browser side of web \u000bprogramming, while Python has become particularly important in scientific computing, data analysis, machine learning, and AI.\nPython is a general-purpose language with a huge collection of useful libraries, and many of those libraries perform demanding computations using highly optimized code written in C and C++."
+        ]
+    },
+    {
+        "slide_number": 5,
+        "content": [
+            "The Web’s Client-Server Model",
+            "O",
+            "1. The user launches a web browser.",
+            "2. The user requests a web page.",
+            "3. The browser sends a request for an HTML document.",
+            "4. The server sends back an HTML document.",
+            "5. The browser interprets the HTML and renders the page.",
+            "https://www.instagram.com",
+            "index.html",
+            "client browser",
+            "web server"
+        ]
+    },
+    {
+        "slide_number": 6,
+        "content": [
+            "Why Both JavaScript and Python",
+            "Modern web pages depend on three related technologies: HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript.\nThese tools are used to manage different parts of a web page:\nHTML is used to specify content, structure, and hierarchy.\nCSS is used to control appearance and formatting.\nJavaScript makes the page interactive and allows it to function like a desktop application running in a browser.\nMany major web properties—e.g., Gmail, Instagram, Dropbox, and Spotify—use Python extensively on the server.\nBy learning both languages, you’ll understand how web apps—both the client and server endpoints—are implemented."
+        ]
+    },
+    {
+        "slide_number": 7,
+        "content": [
+            "Syllabus—Week 1",
+            "September 21",
+            "observing Yom Kipper\u000bno lecture",
+            "23",
+            "Introductions and syllabus\nWhy two languages?\nSimple JavaScript programs",
+            "25",
+            "Basic Functions\nControl Idioms\nDecomposition",
+            "Textbook: Chapters 2 - 5"
+        ]
+    },
+    {
+        "slide_number": 8,
+        "content": [
+            "Syllabus—Week 2",
+            "September 28",
+            "CS106AX Graphics\nGObject hierarchy",
+            "30",
+            "Event-driven programming\nFunctions as data\nClosures\nMouse events",
+            "October 2",
+            "Event-driven programming\nAdvanced closures\u000bImages",
+            "Assignment 1 Out\nTextbook: Chapters 2 – 5",
+            "Textbook: Sections 6.1 – 6.4",
+            "Textbook: Sections 6.1 – 6.4",
+            "JavaScript makes several powerful programming ideas—e.g., closures and event-driven programming—central to everyday programming much earlier than most students encounter them in C++, Java, or Python."
+        ]
+    },
+    {
+        "slide_number": 9,
+        "content": [
+            "Syllabus—Week 3",
+            "7",
+            "Simple strings\nString methods\nString algorithms",
+            "9",
+            "Simple arrays\nArray methods\nArray algorithms",
+            "October 5",
+            "One-shot functions\u000bTimer functions\nAnimations",
+            "Assignment 1 In, Assignment 2 Out\nTextbook: Sections 6.5 - 6.6",
+            "Textbook: Sections 7.1 – 7.5",
+            "Textbook: Sections 8.1 – 8.6"
+        ]
+    },
+    {
+        "slide_number": 10,
+        "content": [
+            "Syllabus—Week 4",
+            "October 12",
+            "Simple aggregate objects\nObject construction\nJSON and eval",
+            "14",
+            "Binary representation\nASCII and Unicode\nRep-sensitive algorithms",
+            "16",
+            "Cryptography\nEncryption techniques\nThe Enigma Machine",
+            "Assignment 2 In, Assignment 3 Out\nTextbook: Sections 9.1 - 9.2",
+            "Textbook: Sections 7.1 – 7.5",
+            "Textbook: Section 7.6",
+            "JSON and eval expose JavaScript’s unusually dynamic relationship between data, objects, and code. Objects can easily be converted into textual data and reconstructed from that data using JSON; similarly, program code can itself be represented as text and, with eval, turned back into executable code."
+        ]
+    },
+    {
+        "slide_number": 11,
+        "content": [
+            "Syllabus—Week 5",
+            "October 19",
+            "JavaScript wrap",
+            "21",
+            "Simple Python programs\nControl idioms\nModules and import",
+            "23",
+            "Python Strings\nSlices",
+            "Assignment 3 In, Assignment 4 Out",
+            "Reader: Chapters 1 - 4",
+            "Reader: Chapter 6"
+        ]
+    },
+    {
+        "slide_number": 12,
+        "content": [
+            "Syllabus—Week 6",
+            "October 26",
+            "Python lists\u000bList methods",
+            "28",
+            "Python dictionaries\nLarge data sets",
+            "30",
+            "Introduction to OO Design\nDesigning simple objects",
+            "Midterm Exam:\nTuesday, October 27\n3:45 P.M. or 7:00 P.M",
+            "Assignment 4  In\nTextbook: Chapter 7",
+            "Reader: Section 11.1",
+            "Assignment 5 Out\nReader: Sections 9.1 – 9.3"
+        ]
+    },
+    {
+        "slide_number": 13,
+        "content": [
+            "Syllabus—Week 7",
+            "4",
+            "Data-driven design\nThe Teaching Machine",
+            "6",
+            "Overview of Adventure!",
+            "November 2",
+            "Advanced OO design\nConstructors\nInternal representations",
+            "Reader: Sections 12.1 – 12.3",
+            "Assign5 Out\nReader: Section 12.4",
+            "Assign5 Out\nAssignment 5 In, Assignment 6 Out",
+            "Data-driven design moves information about what a program should do out of the control flow and into language-agnostic data structures that general-purpose code can interpret."
+        ]
+    },
+    {
+        "slide_number": 14,
+        "content": [
+            "Syllabus—Week 8",
+            "November 9",
+            "HTML and the DOM\nInteractors\u000bNative events",
+            "11",
+            "Introduction to CSS\u000bSelectors, Classes, Rules\nInline Styling",
+            "13",
+            "Client-Server Paradigm\nLife of an HTML page\nBasic HTTP",
+            "Textbook: Sections 12.1 – 12.2",
+            "Assign5 Out\nTextbook: Sections 12.3 – 12.4",
+            "Assign5 Out\nAssignment 6 In, Assignment 7 Out",
+            "This is the week where JavaScript and Python come together: JavaScript controls what happens in the browser, Python handles work on the server, and together they let us architect and implement bona fide web applications."
+        ]
+    },
+    {
+        "slide_number": 15,
+        "content": [
+            "Syllabus—Week 9",
+            "18",
+            "Accessing the DOM in JavaScript\ndocument and window",
+            "20",
+            "Web Programming Wrap",
+            "November 16",
+            "Async programming\nPayload Types\nAPIs",
+            "Assign5 Out\nAssignment 7 In, Assignment 8 Out",
+            "This week completes the web-programming story: JavaScript communicates asynchronously with servers and APIs, processes the data that comes back, and updates the page in response—all without reloading it."
+        ]
+    },
+    {
+        "slide_number": 16,
+        "content": [
+            "Syllabus—Week 10 and Beyond",
+            "Final Exam:\nMonday, December 7\n8:30 A.M.",
+            "Review Session:\nSunday, December 6\n12:00 P.M.",
+            "November 30",
+            "Guest Speaker: Christina Wodtke on HCI",
+            "December 2",
+            "Guest Speaker: Kayvon\nFatahalian on Graphics",
+            "4",
+            "Life After CS106AX",
+            "Assign5 Out\nAssignment 8 In"
+        ]
+    },
+    {
+        "slide_number": 17,
+        "content": [
+            "Assignments in CS106AX",
+            "Assignments in CS106AX are due at 5:00P.M.  Assignments that come in after 5:00P.M will be considered late.\nEveryone in CS106AX starts the quarter with three \"late days\" that you can use at any point you need some extra time.  In my courses, late days correspond to class meetings, so that, if an assignment is due on Monday and you turn it in on Wednesday, that counts as one late day.\nExtensions can only be approved by the TA, Ben Yan.\nAssignments are graded by your section leader, who discusses your work in an interactive, one-on-one grading session.\nEach assignment is given two grades: one for functionality and one for programming style. Style matters. Tech companies in Silicon Valley expect their software developers to author code that everyone else can read and maintain."
+        ]
+    },
+    {
+        "slide_number": 18,
+        "content": [
+            "The CS106AX Grading Scale",
+            "Functionality and style grades for the assignments use the following scale:",
+            "Satisfies all requirements of the assignment.",
+            "Meets most requirements, but with some problems.",
+            "Some more serious problems.",
+            "Even worse than that.",
+            "Represents unsatisfactory work.",
+            "Exceeds requirements in nontrivial ways.",
+            "A submission so good it \"makes you weep\"."
+        ]
+    },
+    {
+        "slide_number": 19,
+        "content": [
+            "Honor Code Rules",
+            "Rule 1:",
+            "You must not look at solutions or program code that is not your own. This includes anything AI-generated.",
+            "Rule 2:",
+            "You must not share your assignment solution code with other students.",
+            "Rule 3:",
+            "You must indicate on your submission any assistance you received, no matter how small."
+        ]
+    },
+    {
+        "slide_number": 20,
+        "content": [
+            "The Structure of an HTML File",
+            "An HTML file consists of the text to be displayed on the page, interspersed with various directives enclosed in angle brackets, which are known as tags.\nHTML tags generally occur in pairs. The opening tag begins with the tag name. The corresponding closing tag has the same name preceded by a slash. The effect of the tag applies to everything between the opening and closing tags.\nThe only HTML tags you will need before Week 7 of the course course appear in the template on the next page, which describes the structure of the HTML index file (and by convention is called index.html.)"
+        ]
+    },
+    {
+        "slide_number": 21,
+        "content": [
+            "Standard HTML Document Pattern",
+            "<!DOCTYPE html>\n<html>\n <head>\n  <title>title of the page</title>\n     One or more script tags to load JavaScript code.\n </head>\n <body onload=\"function()\">\n     Contents of the page, if any.\n </body>\n</html>",
+            "The following components of index.html are standardized:\nEvery file begins with a <!DOCTYPE html> declaration.\nThe entire document is enclosed in <html> and </html>.\nThe <head> section provides information about the page, including its title and any files it needs to load.\nThe <body> contains the content of the page."
+        ]
+    },
+    {
+        "slide_number": 22,
+        "content": [
+            "Creating the JavaScript Program File",
+            "The first step in running a JavaScript program is creating a file that contains the definitions of the functions, along with comments that give human readers a better understanding of what the program does.\nHere, for example, is the complete HelloWorld.js file:",
+            "/*\n * File: HelloWorld.js\n * -------------------\n * This program displays \"hello, world\" on the console.  It\n * is inspired by the first program in Brian Kernighan and\n * Dennis Ritchie's classic book, The C Programming Language.\n */\n\nfunction HelloWorld() {\n   console.log(\"hello, world\");\n}"
+        ]
+    },
+    {
+        "slide_number": 23,
+        "content": [
+            "Creating the HTML File (Version 1)",
+            "A simple HTML file that loads the HelloWorld.js program looks like this:",
+            "<!DOCTYPE html>\n<html>\n <head>\n  <title>Hello World</title>\n  <script type=\"text/javascript\" src=\"HelloWorld.js\"></script>\n </head>\n <body onload=\"HelloWorld()\"></body>\n</html>",
+            "This file asks the browser to load the file HelloWorld.js and then call the function HelloWorld once the page is loaded.\nThe problem with this strategy is that it is hard \"to find out where your output went\" as Kernighan and Ritchie mention."
+        ]
+    },
+    {
+        "slide_number": 24,
+        "content": [
+            "Creating the HTML File (Version 2)",
+            "The output from the console log appears in different places in different browsers and usually requires the user make an effort to search for and find the output.\nTo make the console log easier to find, we provide a library called JSConsole.js that redirects the console log to a much more visible region of the web page.",
+            "<!DOCTYPE html>\n<html>\n <head>\n  <title>Hello World</title>\n   <script type=\"text/javascript\" src=\"JSConsole.js\"></script>\n   <script type=\"text/javascript\" src=\"HelloWorld.js\"></script>\n </head>\n <body onload=\"HelloWorld()\"></body>\n</html>"
+        ]
+    }
+]

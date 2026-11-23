@@ -1,0 +1,4450 @@
+{
+    "source_file": "presentation_test.pdf",
+    "number_of_pages": 57,
+    "number_of_blocks": 346,
+    "extraction_method": "PyMuPDF get_text('blocks')",
+    "pages": [
+        {
+            "page_number": 1,
+            "blocks": [
+                {
+                    "block_id": "page_1_block_1",
+                    "content": "WELCOME!\n(download slides and .py files from",
+                    "bbox": {
+                        "x0": 171.77,
+                        "y0": 141.5,
+                        "x1": 554.19,
+                        "y1": 243.8
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_1_block_2",
+                    "content": "the class site to follow along)",
+                    "bbox": {
+                        "x0": 203.33,
+                        "y0": 239.99,
+                        "x1": 516.55,
+                        "y1": 272.96
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_1_block_3",
+                    "content": "6.100L Lecture 1\nAna Bell",
+                    "bbox": {
+                        "x0": 279.77,
+                        "y0": 282.16,
+                        "x1": 440.26,
+                        "y1": 350.27
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 2,
+            "blocks": [
+                {
+                    "block_id": "page_2_block_1",
+                    "content": "TODAY",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 142.15,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_2_block_2",
+                    "content": "Course info\nWhat is computation\nPython basics",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 127.29,
+                        "x1": 278.34,
+                        "y1": 231.28
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_2_block_3",
+                    "content": "Mathematical operations\nPython variables and types\nNOTE: slides and code files up before each lecture",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 230.83,
+                        "x1": 568.33,
+                        "y1": 321.33
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_2_block_4",
+                    "content": "Highly encourage you to download them before class\nTake notes and run code files when I do\nDo the in-class “You try it” breaks\nClass will not be recorded\nClass will be live-Zoomed for those sick/quarantine",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 319.99,
+                        "x1": 540.71,
+                        "y1": 453.25
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 3,
+            "blocks": [
+                {
+                    "block_id": "page_3_block_1",
+                    "content": "WHY COME TO CLASS?",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 350.0,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_3_block_2",
+                    "content": "You get out of this course what you put into it\nLectures",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 127.29,
+                        "x1": 517.86,
+                        "y1": 195.4
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_3_block_3",
+                    "content": "Intuition for concept\nTeach you the concept\nAsk me questions!\nExamples of concept\nOpportunity to",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 194.69,
+                        "x1": 293.7,
+                        "y1": 328.2
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_3_block_4",
+                    "content": "practice practice practice\nRepeat",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 322.73,
+                        "x1": 317.56,
+                        "y1": 376.32
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 4,
+            "blocks": [
+                {
+                    "block_id": "page_4_block_1",
+                    "content": "PSETS",
+                    "bbox": {
+                        "x0": 323.18,
+                        "y0": 33.32,
+                        "x1": 367.33,
+                        "y1": 58.3
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_2",
+                    "content": "OFFICE \nHOURS",
+                    "bbox": {
+                        "x0": 72.51,
+                        "y0": 21.74,
+                        "x1": 129.25,
+                        "y1": 68.32
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_3",
+                    "content": "OPTIONAL",
+                    "bbox": {
+                        "x0": 584.13,
+                        "y0": 66.26,
+                        "x1": 662.06,
+                        "y1": 91.25
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_4",
+                    "content": "(practice)",
+                    "bbox": {
+                        "x0": 587.73,
+                        "y0": 87.86,
+                        "x1": 658.38,
+                        "y1": 112.85
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_4_block_5",
+                    "content": "PIAZZA",
+                    "bbox": {
+                        "x0": 112.07,
+                        "y0": 93.64,
+                        "x1": 165.45,
+                        "y1": 118.63
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_6",
+                    "content": "PROBLEM",
+                    "bbox": {
+                        "x0": 295.62,
+                        "y0": 127.2,
+                        "x1": 382.46,
+                        "y1": 155.01
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_7",
+                    "content": "MANDATORY",
+                    "bbox": {
+                        "x0": 588.16,
+                        "y0": 145.5,
+                        "x1": 690.87,
+                        "y1": 170.49
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_8",
+                    "content": "SOLVING",
+                    "bbox": {
+                        "x0": 300.19,
+                        "y0": 151.2,
+                        "x1": 373.44,
+                        "y1": 179.02
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_9",
+                    "content": "FINGER \nEXERCISES",
+                    "bbox": {
+                        "x0": 598.85,
+                        "y0": 167.1,
+                        "x1": 676.26,
+                        "y1": 213.69
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_10",
+                    "content": "PRACTICE",
+                    "bbox": {
+                        "x0": 108.26,
+                        "y0": 175.59,
+                        "x1": 560.58,
+                        "y1": 286.85
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_11",
+                    "content": "LECTURES",
+                    "bbox": {
+                        "x0": 30.34,
+                        "y0": 279.31,
+                        "x1": 103.9,
+                        "y1": 304.29
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_12",
+                    "content": "PROGRAMMING",
+                    "bbox": {
+                        "x0": 455.49,
+                        "y0": 311.26,
+                        "x1": 597.78,
+                        "y1": 339.07
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_13",
+                    "content": "KNOWLEDGE \nOF CONCEPTS",
+                    "bbox": {
+                        "x0": 195.2,
+                        "y0": 309.21,
+                        "x1": 311.45,
+                        "y1": 361.04
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_14",
+                    "content": "SKILL",
+                    "bbox": {
+                        "x0": 503.01,
+                        "y0": 335.27,
+                        "x1": 545.81,
+                        "y1": 363.08
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_15",
+                    "content": "RECITATION",
+                    "bbox": {
+                        "x0": 28.93,
+                        "y0": 401.59,
+                        "x1": 116.39,
+                        "y1": 426.58
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_16",
+                    "content": "EXAMS",
+                    "bbox": {
+                        "x0": 215.93,
+                        "y0": 426.04,
+                        "x1": 269.8,
+                        "y1": 451.02
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_4_block_19",
+                    "content": "February 3, 2016\n6.0001 LECTURE 1",
+                    "bbox": {
+                        "x0": 72.0,
+                        "y0": 521.72,
+                        "x1": 392.8,
+                        "y1": 533.76
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 5,
+            "blocks": [
+                {
+                    "block_id": "page_5_block_1",
+                    "content": "TOPICS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 148.01,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_5_block_2",
+                    "content": "Solving problems using computation\nPython programming language\nOrganizing modular programs\nSome simple but important algorithms\nAlgorithmic complexity",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 452.68,
+                        "y1": 304.05
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 6,
+            "blocks": [
+                {
+                    "block_id": "page_6_block_1",
+                    "content": "LET’S GOOOOO!",
+                    "bbox": {
+                        "x0": 162.89,
+                        "y0": 170.65,
+                        "x1": 557.09,
+                        "y1": 243.91
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                }
+            ]
+        },
+        {
+            "page_number": 7,
+            "blocks": [
+                {
+                    "block_id": "page_7_block_1",
+                    "content": "TYPES of KNOWLEDGE",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 344.05,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_7_block_2",
+                    "content": "Declarative knowledge is statements of fact\nImperative knowledge is a recipe or “how-to”",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 522.85,
+                        "y1": 196.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_7_block_3",
+                    "content": "Programming is about writing recipes to generate facts",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 235.05,
+                        "x1": 606.8,
+                        "y1": 267.16
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 8,
+            "blocks": [
+                {
+                    "block_id": "page_8_block_1",
+                    "content": "NUMERICAL EXAMPLE",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 342.98,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_8_block_2",
+                    "content": "Square root of a number x is y such that y*y = x\nStart with a guess, g",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 127.05,
+                        "x1": 593.34,
+                        "y1": 203.87
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_8_block_3",
+                    "content": "1)\nIf g*g is close enough to x, stop and say g is the answer\n2)\nOtherwise make a new guess by averaging g and x/g\n3)\nUsing the new guess, repeat process until close enough\nLet’s try it for x = 16 and an initial guess of 3",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 194.45,
+                        "x1": 575.63,
+                        "y1": 311.08
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_8_block_4",
+                    "content": "g\ng*g\nx/g\n(g+x/g)/2",
+                    "bbox": {
+                        "x0": 57.77,
+                        "y0": 313.06,
+                        "x1": 401.35,
+                        "y1": 343.68
+                    },
+                    "predicted_type": "table_candidate",
+                    "classification_reason": "The block is aligned with an adjacent heading/value block."
+                },
+                {
+                    "block_id": "page_8_block_5",
+                    "content": "3\n9\n16/3\n4.17",
+                    "bbox": {
+                        "x0": 57.75,
+                        "y0": 341.86,
+                        "x1": 347.59,
+                        "y1": 372.48
+                    },
+                    "predicted_type": "table_candidate",
+                    "classification_reason": "The block is aligned with an adjacent heading/value block."
+                }
+            ]
+        },
+        {
+            "page_number": 9,
+            "blocks": [
+                {
+                    "block_id": "page_9_block_1",
+                    "content": "NUMERICAL EXAMPLE",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 342.98,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_9_block_2",
+                    "content": "Square root of a number x is y such that y*y = x\nStart with a guess, g",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 127.05,
+                        "x1": 593.34,
+                        "y1": 203.87
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_9_block_3",
+                    "content": "1)\nIf g*g is close enough to x, stop and say g is the answer\n2)\nOtherwise make a new guess by averaging g and x/g\n3)\nUsing the new guess, repeat process until close enough\nLet’s try it for x = 16 and an initial guess of 3",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 194.45,
+                        "x1": 575.63,
+                        "y1": 311.08
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_9_block_4",
+                    "content": "g\ng*g\nx/g\n(g+x/g)/2",
+                    "bbox": {
+                        "x0": 57.77,
+                        "y0": 313.06,
+                        "x1": 401.35,
+                        "y1": 343.68
+                    },
+                    "predicted_type": "table_candidate",
+                    "classification_reason": "The block is aligned with an adjacent heading/value block."
+                },
+                {
+                    "block_id": "page_9_block_5",
+                    "content": "3\n9\n16/3\n4.17",
+                    "bbox": {
+                        "x0": 57.75,
+                        "y0": 341.86,
+                        "x1": 347.59,
+                        "y1": 372.48
+                    },
+                    "predicted_type": "table_candidate",
+                    "classification_reason": "The block is aligned with an adjacent heading/value block."
+                },
+                {
+                    "block_id": "page_9_block_6",
+                    "content": "4.17\n17.36\n3.837\n4.0035",
+                    "bbox": {
+                        "x0": 57.75,
+                        "y0": 381.64,
+                        "x1": 369.07,
+                        "y1": 412.26
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 10,
+            "blocks": [
+                {
+                    "block_id": "page_10_block_1",
+                    "content": "NUMERICAL EXAMPLE",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 342.98,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_10_block_2",
+                    "content": "Square root of a number x is y such that y*y = x\nStart with a guess, g",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 127.05,
+                        "x1": 593.34,
+                        "y1": 203.87
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_10_block_3",
+                    "content": "1)\nIf g*g is close enough to x, stop and say g is the answer\n2)\nOtherwise make a new guess by averaging g and x/g\n3)\nUsing the new guess, repeat process until close enough\nLet’s try it for x = 16 and an initial guess of 3",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 194.45,
+                        "x1": 575.63,
+                        "y1": 311.08
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_10_block_4",
+                    "content": "g\ng*g\nx/g\n(g+x/g)/2",
+                    "bbox": {
+                        "x0": 57.77,
+                        "y0": 313.06,
+                        "x1": 401.35,
+                        "y1": 343.68
+                    },
+                    "predicted_type": "table_candidate",
+                    "classification_reason": "The block is aligned with an adjacent heading/value block."
+                },
+                {
+                    "block_id": "page_10_block_5",
+                    "content": "3\n9\n16/3\n4.17",
+                    "bbox": {
+                        "x0": 57.75,
+                        "y0": 341.86,
+                        "x1": 347.59,
+                        "y1": 372.48
+                    },
+                    "predicted_type": "table_candidate",
+                    "classification_reason": "The block is aligned with an adjacent heading/value block."
+                },
+                {
+                    "block_id": "page_10_block_6",
+                    "content": "4.17\n17.36\n3.837\n4.0035",
+                    "bbox": {
+                        "x0": 57.75,
+                        "y0": 381.64,
+                        "x1": 369.07,
+                        "y1": 412.26
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_10_block_7",
+                    "content": "4.0035\n16.0277\n3.997\n4.000002",
+                    "bbox": {
+                        "x0": 57.75,
+                        "y0": 421.42,
+                        "x1": 390.67,
+                        "y1": 452.04
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 11,
+            "blocks": [
+                {
+                    "block_id": "page_11_block_1",
+                    "content": "WE HAVE an ALGORITHM",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 383.19,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_11_block_2",
+                    "content": "1) Sequence of simple steps\n2) Flow of control process that specifies when each step is\nexecuted\n3) A means of determining when to stop",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 623.48,
+                        "y1": 258.09
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 12,
+            "blocks": [
+                {
+                    "block_id": "page_12_block_1",
+                    "content": "ALGORITHMS are RECIPES /\nRECIPES are ALGORITHMS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 28.41,
+                        "x1": 408.36,
+                        "y1": 102.11
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_12_block_2",
+                    "content": "Bake cake from a box",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 127.29,
+                        "x1": 280.09,
+                        "y1": 159.4
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_12_block_3",
+                    "content": "1) Mix dry ingredients\n2) Add eggs and milk\n3) Pour mixture in a pan\n4) Bake at 350F for 5 minutes\n5) Stick a toothpick in the cake",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 159.07,
+                        "x1": 358.27,
+                        "y1": 292.18
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_12_block_4",
+                    "content": "6a) If toothpick does not come out clean, repeat step 4 and 5\n6b) Otherwise, take pan out of the oven\n7) Eat",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 292.44,
+                        "x1": 592.81,
+                        "y1": 367.69
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 13,
+            "blocks": [
+                {
+                    "block_id": "page_13_block_1",
+                    "content": "COMPUTERS are MACHINES that \nEXECUTE ALGORITHMS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 28.41,
+                        "x1": 483.2,
+                        "y1": 102.11
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_13_block_2",
+                    "content": "Two things computers do:",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 127.29,
+                        "x1": 326.05,
+                        "y1": 159.4
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_13_block_3",
+                    "content": "Performs simple operations",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 158.81,
+                        "x1": 336.71,
+                        "y1": 186.63
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_13_block_4",
+                    "content": "100s of billions per second!\nRemembers results\n100s of gigabytes of storage!\nWhat kinds of calculations?",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 180.67,
+                        "x1": 340.93,
+                        "y1": 296.8
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_13_block_5",
+                    "content": "Built-in to the machine, e.g., +\nOnes that you define as the programmer\nThe BIG IDEA here?",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 296.09,
+                        "x1": 447.92,
+                        "y1": 385.84
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 14,
+            "blocks": [
+                {
+                    "block_id": "page_14_block_1",
+                    "content": "A COMPUTER WILL ONLY DO \nWHAT YOU TELL IT TO DO",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 28.41,
+                        "x1": 430.95,
+                        "y1": 102.11
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                }
+            ]
+        },
+        {
+            "page_number": 15,
+            "blocks": [
+                {
+                    "block_id": "page_15_block_1",
+                    "content": "COMPUTERS are MACHINES that \nEXECUTE ALGORITHMS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 28.41,
+                        "x1": 483.2,
+                        "y1": 102.11
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_15_block_2",
+                    "content": "Fixed program computer",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 317.56,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_15_block_3",
+                    "content": "Fixed set of algorithms\nWhat we had until 1940’s\nStored program computer",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 159.07,
+                        "x1": 330.88,
+                        "y1": 249.45
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_15_block_4",
+                    "content": "Machine stores and executes instructions\nKey insight: Programs are no different from other kinds of data",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 248.11,
+                        "x1": 685.84,
+                        "y1": 311.97
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 16,
+            "blocks": [
+                {
+                    "block_id": "page_16_block_1",
+                    "content": "STORED PROGRAM COMPUTER",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 459.07,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_16_block_2",
+                    "content": "Sequence of instructions stored inside computer",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 550.48,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_16_block_3",
+                    "content": "Built from predefined set of primitive instructions\n1)\nArithmetic and logical\n2)\nSimple tests\n3)\nMoving data\nSpecial program (interpreter) executes each instruction in",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 159.07,
+                        "x1": 639.94,
+                        "y1": 296.13
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_16_block_4",
+                    "content": "order",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 288.74,
+                        "x1": 129.42,
+                        "y1": 322.05
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_16_block_5",
+                    "content": "Use tests to change flow of control through sequence\nStops when it runs out of instructions or executes a halt instruction",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 320.83,
+                        "x1": 655.07,
+                        "y1": 374.16
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 17,
+            "blocks": [
+                {
+                    "block_id": "page_17_block_1",
+                    "content": "MEMORY",
+                    "bbox": {
+                        "x0": 497.77,
+                        "y0": 93.19,
+                        "x1": 627.49,
+                        "y1": 154.43
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_17_block_2",
+                    "content": "CONTROL",
+                    "bbox": {
+                        "x0": 160.17,
+                        "y0": 250.01,
+                        "x1": 333.09,
+                        "y1": 311.25
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_17_block_3",
+                    "content": "UNIT",
+                    "bbox": {
+                        "x0": 224.97,
+                        "y0": 293.21,
+                        "x1": 311.37,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_17_block_4",
+                    "content": "ARITHMETIC \nLOGIC UNIT",
+                    "bbox": {
+                        "x0": 413.71,
+                        "y0": 250.01,
+                        "x1": 651.55,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_17_block_5",
+                    "content": "program counter\ndo primitive ops",
+                    "bbox": {
+                        "x0": 181.38,
+                        "y0": 340.58,
+                        "x1": 592.8,
+                        "y1": 365.47
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_17_block_6",
+                    "content": "INPUT\nOUTPUT",
+                    "bbox": {
+                        "x0": 186.17,
+                        "y0": 420.37,
+                        "x1": 485.25,
+                        "y1": 481.61
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                }
+            ]
+        },
+        {
+            "page_number": 18,
+            "blocks": [
+                {
+                    "block_id": "page_18_block_1",
+                    "content": "MEMORY",
+                    "bbox": {
+                        "x0": 497.77,
+                        "y0": 93.19,
+                        "x1": 627.49,
+                        "y1": 154.43
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_18_block_2",
+                    "content": "3456\n3\n3457\n4\n3458\n3459\nTrue\n3460\n3461\nFalse",
+                    "bbox": {
+                        "x0": 102.69,
+                        "y0": 51.25,
+                        "x1": 206.2,
+                        "y1": 185.75
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_18_block_3",
+                    "content": "7889\n5\n7890\n2\n7891\n7892\n7893\n7894",
+                    "bbox": {
+                        "x0": 290.22,
+                        "y0": 51.62,
+                        "x1": 381.25,
+                        "y1": 186.13
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_18_block_4",
+                    "content": "Add \n3456\n3457",
+                    "bbox": {
+                        "x0": 111.54,
+                        "y0": 229.91,
+                        "x1": 275.84,
+                        "y1": 254.74
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_18_block_5",
+                    "content": "Add \n7889\n7890\nStore \n3458",
+                    "bbox": {
+                        "x0": 106.86,
+                        "y0": 252.88,
+                        "x1": 275.84,
+                        "y1": 301.0
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_18_block_6",
+                    "content": "CONTROL",
+                    "bbox": {
+                        "x0": 160.17,
+                        "y0": 250.01,
+                        "x1": 333.09,
+                        "y1": 311.25
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_18_block_7",
+                    "content": "UNIT",
+                    "bbox": {
+                        "x0": 224.97,
+                        "y0": 293.21,
+                        "x1": 311.37,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_18_block_8",
+                    "content": "ARITHMETIC \nLOGIC UNIT",
+                    "bbox": {
+                        "x0": 413.71,
+                        "y0": 250.01,
+                        "x1": 651.55,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_18_block_9",
+                    "content": "Store \n7891\nCompare\n3458\n7891\nPrint",
+                    "bbox": {
+                        "x0": 78.83,
+                        "y0": 300.77,
+                        "x1": 275.84,
+                        "y1": 375.11
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_18_block_10",
+                    "content": "INPUT\nOUTPUT",
+                    "bbox": {
+                        "x0": 186.17,
+                        "y0": 420.37,
+                        "x1": 485.25,
+                        "y1": 481.61
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                }
+            ]
+        },
+        {
+            "page_number": 19,
+            "blocks": [
+                {
+                    "block_id": "page_19_block_1",
+                    "content": "MEMORY",
+                    "bbox": {
+                        "x0": 497.77,
+                        "y0": 93.19,
+                        "x1": 627.49,
+                        "y1": 154.43
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_19_block_2",
+                    "content": "3456\n3\n3457\n4\n3458\n3459\nTrue\n3460\n3461\nFalse",
+                    "bbox": {
+                        "x0": 102.69,
+                        "y0": 51.25,
+                        "x1": 206.2,
+                        "y1": 185.75
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_19_block_3",
+                    "content": "7889\n5\n7890\n2\n7891\n7892\n7893\n7894",
+                    "bbox": {
+                        "x0": 290.22,
+                        "y0": 51.62,
+                        "x1": 381.25,
+                        "y1": 186.13
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_19_block_4",
+                    "content": "Add \n3456\n3457",
+                    "bbox": {
+                        "x0": 111.54,
+                        "y0": 229.91,
+                        "x1": 275.84,
+                        "y1": 254.74
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_19_block_5",
+                    "content": "Add \n7889\n7890\nStore \n3458",
+                    "bbox": {
+                        "x0": 106.86,
+                        "y0": 252.88,
+                        "x1": 275.84,
+                        "y1": 301.0
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_19_block_6",
+                    "content": "CONTROL",
+                    "bbox": {
+                        "x0": 160.17,
+                        "y0": 250.01,
+                        "x1": 333.09,
+                        "y1": 311.25
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_19_block_7",
+                    "content": "UNIT",
+                    "bbox": {
+                        "x0": 224.97,
+                        "y0": 293.21,
+                        "x1": 311.37,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_19_block_8",
+                    "content": "ARITHMETIC \nLOGIC UNIT",
+                    "bbox": {
+                        "x0": 413.71,
+                        "y0": 250.01,
+                        "x1": 651.55,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_19_block_9",
+                    "content": "Store \n7891\nCompare\n3458\n7891\nPrint",
+                    "bbox": {
+                        "x0": 78.83,
+                        "y0": 300.77,
+                        "x1": 275.84,
+                        "y1": 375.11
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_19_block_10",
+                    "content": "INPUT\nOUTPUT",
+                    "bbox": {
+                        "x0": 186.17,
+                        "y0": 420.37,
+                        "x1": 485.25,
+                        "y1": 481.61
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                }
+            ]
+        },
+        {
+            "page_number": 20,
+            "blocks": [
+                {
+                    "block_id": "page_20_block_1",
+                    "content": "MEMORY",
+                    "bbox": {
+                        "x0": 497.77,
+                        "y0": 93.19,
+                        "x1": 627.49,
+                        "y1": 154.43
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_20_block_2",
+                    "content": "3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse",
+                    "bbox": {
+                        "x0": 102.69,
+                        "y0": 51.25,
+                        "x1": 206.2,
+                        "y1": 185.75
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_20_block_3",
+                    "content": "7889\n5\n7890\n2\n7891\n7892\n7893\n7894",
+                    "bbox": {
+                        "x0": 290.22,
+                        "y0": 51.62,
+                        "x1": 381.25,
+                        "y1": 186.13
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_20_block_4",
+                    "content": "Add \n3456\n3457",
+                    "bbox": {
+                        "x0": 111.54,
+                        "y0": 229.91,
+                        "x1": 275.84,
+                        "y1": 254.74
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_20_block_5",
+                    "content": "Add \n7889\n7890\nStore \n3458",
+                    "bbox": {
+                        "x0": 106.86,
+                        "y0": 252.88,
+                        "x1": 275.84,
+                        "y1": 301.0
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_20_block_6",
+                    "content": "CONTROL",
+                    "bbox": {
+                        "x0": 160.17,
+                        "y0": 250.01,
+                        "x1": 333.09,
+                        "y1": 311.25
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_20_block_7",
+                    "content": "UNIT",
+                    "bbox": {
+                        "x0": 224.97,
+                        "y0": 293.21,
+                        "x1": 311.37,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_20_block_8",
+                    "content": "ARITHMETIC \nLOGIC UNIT",
+                    "bbox": {
+                        "x0": 413.71,
+                        "y0": 250.01,
+                        "x1": 651.55,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_20_block_9",
+                    "content": "Store \n7891\nCompare\n3458\n7891\nPrint",
+                    "bbox": {
+                        "x0": 78.83,
+                        "y0": 300.77,
+                        "x1": 275.84,
+                        "y1": 375.11
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_20_block_10",
+                    "content": "INPUT\nOUTPUT",
+                    "bbox": {
+                        "x0": 186.17,
+                        "y0": 420.37,
+                        "x1": 485.25,
+                        "y1": 481.61
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                }
+            ]
+        },
+        {
+            "page_number": 21,
+            "blocks": [
+                {
+                    "block_id": "page_21_block_1",
+                    "content": "MEMORY",
+                    "bbox": {
+                        "x0": 497.77,
+                        "y0": 93.19,
+                        "x1": 627.49,
+                        "y1": 154.43
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_21_block_2",
+                    "content": "3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse",
+                    "bbox": {
+                        "x0": 102.69,
+                        "y0": 51.25,
+                        "x1": 206.2,
+                        "y1": 185.75
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_21_block_3",
+                    "content": "7889\n5\n7890\n2\n7891\n7892\n7893\n7894",
+                    "bbox": {
+                        "x0": 290.22,
+                        "y0": 51.62,
+                        "x1": 381.25,
+                        "y1": 186.13
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_21_block_4",
+                    "content": "Add \n3456\n3457",
+                    "bbox": {
+                        "x0": 111.54,
+                        "y0": 229.91,
+                        "x1": 275.84,
+                        "y1": 254.74
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_21_block_5",
+                    "content": "Add \n7889\n7890\nStore \n3458",
+                    "bbox": {
+                        "x0": 106.86,
+                        "y0": 252.88,
+                        "x1": 275.84,
+                        "y1": 301.0
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_21_block_6",
+                    "content": "CONTROL",
+                    "bbox": {
+                        "x0": 160.17,
+                        "y0": 250.01,
+                        "x1": 333.09,
+                        "y1": 311.25
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_21_block_7",
+                    "content": "UNIT",
+                    "bbox": {
+                        "x0": 224.97,
+                        "y0": 293.21,
+                        "x1": 311.37,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_21_block_8",
+                    "content": "ARITHMETIC \nLOGIC UNIT",
+                    "bbox": {
+                        "x0": 413.71,
+                        "y0": 250.01,
+                        "x1": 651.55,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_21_block_9",
+                    "content": "Store \n7891\nCompare\n3458\n7891\nPrint",
+                    "bbox": {
+                        "x0": 78.83,
+                        "y0": 300.77,
+                        "x1": 275.84,
+                        "y1": 375.11
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_21_block_10",
+                    "content": "INPUT\nOUTPUT",
+                    "bbox": {
+                        "x0": 186.17,
+                        "y0": 420.37,
+                        "x1": 485.25,
+                        "y1": 481.61
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                }
+            ]
+        },
+        {
+            "page_number": 22,
+            "blocks": [
+                {
+                    "block_id": "page_22_block_1",
+                    "content": "MEMORY",
+                    "bbox": {
+                        "x0": 497.77,
+                        "y0": 93.19,
+                        "x1": 627.49,
+                        "y1": 154.43
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_22_block_2",
+                    "content": "3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse",
+                    "bbox": {
+                        "x0": 102.69,
+                        "y0": 51.25,
+                        "x1": 206.2,
+                        "y1": 185.75
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_22_block_3",
+                    "content": "7889\n5\n7890\n2\n7891\n7\n7892\n7893\n7894",
+                    "bbox": {
+                        "x0": 290.22,
+                        "y0": 51.62,
+                        "x1": 381.25,
+                        "y1": 186.13
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_22_block_4",
+                    "content": "Add \n3456\n3457",
+                    "bbox": {
+                        "x0": 111.54,
+                        "y0": 229.91,
+                        "x1": 275.84,
+                        "y1": 254.74
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_22_block_5",
+                    "content": "Add \n7889\n7890\nStore \n3458",
+                    "bbox": {
+                        "x0": 106.86,
+                        "y0": 252.88,
+                        "x1": 275.84,
+                        "y1": 301.0
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_22_block_6",
+                    "content": "CONTROL",
+                    "bbox": {
+                        "x0": 160.17,
+                        "y0": 250.01,
+                        "x1": 333.09,
+                        "y1": 311.25
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_22_block_7",
+                    "content": "UNIT",
+                    "bbox": {
+                        "x0": 224.97,
+                        "y0": 293.21,
+                        "x1": 311.37,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_22_block_8",
+                    "content": "ARITHMETIC \nLOGIC UNIT",
+                    "bbox": {
+                        "x0": 413.71,
+                        "y0": 250.01,
+                        "x1": 651.55,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_22_block_9",
+                    "content": "Store \n7891\nCompare\n3458\n7891\nPrint",
+                    "bbox": {
+                        "x0": 78.83,
+                        "y0": 300.77,
+                        "x1": 275.84,
+                        "y1": 375.11
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_22_block_10",
+                    "content": "INPUT\nOUTPUT",
+                    "bbox": {
+                        "x0": 186.17,
+                        "y0": 420.37,
+                        "x1": 485.25,
+                        "y1": 481.61
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                }
+            ]
+        },
+        {
+            "page_number": 23,
+            "blocks": [
+                {
+                    "block_id": "page_23_block_1",
+                    "content": "MEMORY",
+                    "bbox": {
+                        "x0": 497.77,
+                        "y0": 93.19,
+                        "x1": 627.49,
+                        "y1": 154.43
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_23_block_2",
+                    "content": "3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse",
+                    "bbox": {
+                        "x0": 102.69,
+                        "y0": 51.25,
+                        "x1": 206.2,
+                        "y1": 185.75
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_23_block_3",
+                    "content": "7889\n5\n7890\n2\n7891\n7\n7892\n7893\n7894",
+                    "bbox": {
+                        "x0": 290.22,
+                        "y0": 51.62,
+                        "x1": 381.25,
+                        "y1": 186.13
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_23_block_4",
+                    "content": "Add \n3456\n3457",
+                    "bbox": {
+                        "x0": 111.54,
+                        "y0": 229.91,
+                        "x1": 275.84,
+                        "y1": 254.74
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_23_block_5",
+                    "content": "Add \n7889\n7890\nStore \n3458",
+                    "bbox": {
+                        "x0": 106.86,
+                        "y0": 252.88,
+                        "x1": 275.84,
+                        "y1": 301.0
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_23_block_6",
+                    "content": "CONTROL",
+                    "bbox": {
+                        "x0": 160.17,
+                        "y0": 250.01,
+                        "x1": 333.09,
+                        "y1": 311.25
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_23_block_7",
+                    "content": "UNIT",
+                    "bbox": {
+                        "x0": 224.97,
+                        "y0": 293.21,
+                        "x1": 311.37,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_23_block_8",
+                    "content": "ARITHMETIC \nLOGIC UNIT",
+                    "bbox": {
+                        "x0": 413.71,
+                        "y0": 250.01,
+                        "x1": 651.55,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_23_block_9",
+                    "content": "Store \n7891\nCompare\n3458\n7891\nPrint",
+                    "bbox": {
+                        "x0": 78.83,
+                        "y0": 300.77,
+                        "x1": 275.84,
+                        "y1": 375.11
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_23_block_10",
+                    "content": "INPUT\nOUTPUT",
+                    "bbox": {
+                        "x0": 186.17,
+                        "y0": 420.37,
+                        "x1": 485.25,
+                        "y1": 481.61
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                }
+            ]
+        },
+        {
+            "page_number": 24,
+            "blocks": [
+                {
+                    "block_id": "page_24_block_1",
+                    "content": "MEMORY",
+                    "bbox": {
+                        "x0": 497.77,
+                        "y0": 93.19,
+                        "x1": 627.49,
+                        "y1": 154.43
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_2",
+                    "content": "3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse",
+                    "bbox": {
+                        "x0": 102.69,
+                        "y0": 51.25,
+                        "x1": 206.2,
+                        "y1": 185.75
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_3",
+                    "content": "7889\n5\n7890\n2\n7891\n7\n7892\n7893\n7894",
+                    "bbox": {
+                        "x0": 290.22,
+                        "y0": 51.62,
+                        "x1": 381.25,
+                        "y1": 186.13
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_4",
+                    "content": "Add \n3456\n3457",
+                    "bbox": {
+                        "x0": 111.54,
+                        "y0": 229.91,
+                        "x1": 275.84,
+                        "y1": 254.74
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_5",
+                    "content": "Add \n7889\n7890\nStore \n3458",
+                    "bbox": {
+                        "x0": 106.86,
+                        "y0": 252.88,
+                        "x1": 275.84,
+                        "y1": 301.0
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_6",
+                    "content": "CONTROL",
+                    "bbox": {
+                        "x0": 160.17,
+                        "y0": 250.01,
+                        "x1": 333.09,
+                        "y1": 311.25
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_7",
+                    "content": "UNIT",
+                    "bbox": {
+                        "x0": 224.97,
+                        "y0": 293.21,
+                        "x1": 311.37,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_8",
+                    "content": "ARITHMETIC \nLOGIC UNIT",
+                    "bbox": {
+                        "x0": 413.71,
+                        "y0": 250.01,
+                        "x1": 651.55,
+                        "y1": 354.45
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_9",
+                    "content": "Store \n7891\nCompare\n3458\n7891\nPrint",
+                    "bbox": {
+                        "x0": 78.83,
+                        "y0": 300.77,
+                        "x1": 275.84,
+                        "y1": 375.11
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_10",
+                    "content": "True",
+                    "bbox": {
+                        "x0": 439.06,
+                        "y0": 440.76,
+                        "x1": 471.42,
+                        "y1": 464.85
+                    },
+                    "predicted_type": "diagram_content_candidate",
+                    "classification_reason": "The block belongs to a page containing several diagram labels."
+                },
+                {
+                    "block_id": "page_24_block_11",
+                    "content": "INPUT\nOUTPUT",
+                    "bbox": {
+                        "x0": 186.17,
+                        "y0": 420.37,
+                        "x1": 485.25,
+                        "y1": 481.61
+                    },
+                    "predicted_type": "diagram_label_candidate",
+                    "classification_reason": "The block contains one or several known diagram labels."
+                }
+            ]
+        },
+        {
+            "page_number": 25,
+            "blocks": [
+                {
+                    "block_id": "page_25_block_1",
+                    "content": "BASIC PRIMITIVES",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 285.23,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_25_block_2",
+                    "content": "Turing showed that you can compute anything with a very",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 641.65,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_25_block_3",
+                    "content": "simple machine with only 6 primitives: left, right, print, scan,\nerase, no op",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 153.21,
+                        "x1": 663.3,
+                        "y1": 211.24
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_25_block_4",
+                    "content": "© source unknown. All rights reserved. This \ncontent is excluded from our Creative Commons \nlicense. For more information, see \nhttps://ocw.mit.edu/help/faq-fair-use/",
+                    "bbox": {
+                        "x0": 513.74,
+                        "y0": 293.9,
+                        "x1": 693.76,
+                        "y1": 336.62
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_25_block_5",
+                    "content": "Real programming languages have",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 358.77,
+                        "x1": 407.65,
+                        "y1": 390.88
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_25_block_6",
+                    "content": "More convenient set of primitives\nWays to combine primitives to create new primitives\nAnything computable in one language is computable in any",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 390.43,
+                        "x1": 648.24,
+                        "y1": 480.04
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_25_block_7",
+                    "content": "other programming language",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 473.85,
+                        "x1": 358.57,
+                        "y1": 505.96
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 26,
+            "blocks": [
+                {
+                    "block_id": "page_26_block_1",
+                    "content": "ASPECTS of LANGUAGES",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 368.45,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_26_block_2",
+                    "content": "Primitive constructs",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 272.8,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_26_block_3",
+                    "content": "English: words\nProgramming language: numbers, strings, simple operators",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 159.07,
+                        "x1": 589.66,
+                        "y1": 212.4
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 27,
+            "blocks": [
+                {
+                    "block_id": "page_27_block_1",
+                    "content": "ASPECTS of LANGUAGES",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 368.45,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_27_block_2",
+                    "content": "Syntax",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 140.44,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_27_block_3",
+                    "content": "English: \"cat dog boy\"    not syntactically valid",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 158.95,
+                        "x1": 545.75,
+                        "y1": 193.14
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_27_block_4",
+                    "content": "\"cat hugs boy\" syntactically valid\nProgramming language: \"hi\"5 not syntactically valid",
+                    "bbox": {
+                        "x0": 92.68,
+                        "y0": 185.46,
+                        "x1": 570.62,
+                        "y1": 246.31
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_27_block_5",
+                    "content": "\"hi\"*5 syntactically valid",
+                    "bbox": {
+                        "x0": 322.14,
+                        "y0": 238.75,
+                        "x1": 564.36,
+                        "y1": 272.93
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 28,
+            "blocks": [
+                {
+                    "block_id": "page_28_block_1",
+                    "content": "ASPECTS of LANGUAGES",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 368.45,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_28_block_2",
+                    "content": "Static semantics: which syntactically valid strings have meaning",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 691.04,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_28_block_3",
+                    "content": "English: \"I are hungry\" syntactically valid",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 158.95,
+                        "x1": 515.98,
+                        "y1": 193.14
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_28_block_4",
+                    "content": "but static semantic error\nPL: \"hi\"+5 syntactically valid",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 185.59,
+                        "x1": 551.0,
+                        "y1": 246.31
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_28_block_5",
+                    "content": "but static semantic error",
+                    "bbox": {
+                        "x0": 221.1,
+                        "y0": 238.87,
+                        "x1": 420.53,
+                        "y1": 265.68
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 29,
+            "blocks": [
+                {
+                    "block_id": "page_29_block_1",
+                    "content": "ASPECTS of LANGUAGES",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 368.45,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_29_block_2",
+                    "content": "Semantics: the meaning associated with a syntactically correct",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 681.78,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_29_block_3",
+                    "content": "string of symbols with no static semantic errors\nEnglish: can have many meanings \"The chicken is",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 153.21,
+                        "x1": 620.34,
+                        "y1": 229.79
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_29_block_4",
+                    "content": "ready to eat.\"",
+                    "bbox": {
+                        "x0": 89.1,
+                        "y0": 214.65,
+                        "x1": 290.46,
+                        "y1": 255.47
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_29_block_5",
+                    "content": "Programs have only one meaning\nBut the meaning may not be what programmer intended",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 251.01,
+                        "x1": 638.63,
+                        "y1": 319.89
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 30,
+            "blocks": [
+                {
+                    "block_id": "page_30_block_1",
+                    "content": "WHERE THINGS GO WRONG",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 420.61,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_30_block_2",
+                    "content": "Syntactic errors",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 229.12,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_30_block_3",
+                    "content": "Common and easily caught\nStatic semantic errors",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 159.07,
+                        "x1": 329.81,
+                        "y1": 222.81
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_30_block_4",
+                    "content": "Some languages check for these before running",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 221.59,
+                        "x1": 496.22,
+                        "y1": 248.41
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_30_block_5",
+                    "content": "program\nCan cause unpredictable behavior\nNo linguistic errors, but different meaning",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 243.19,
+                        "x1": 486.64,
+                        "y1": 333.57
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_30_block_6",
+                    "content": "than what programmer intended",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 326.18,
+                        "x1": 401.75,
+                        "y1": 359.49
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_30_block_7",
+                    "content": "Program crashes, stops running\nProgram runs forever\nProgram gives an answer,  but it’s wrong!",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 358.15,
+                        "x1": 443.91,
+                        "y1": 438.23
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 31,
+            "blocks": [
+                {
+                    "block_id": "page_31_block_1",
+                    "content": "PYTHON PROGRAMS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 322.64,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_31_block_2",
+                    "content": "A program is a sequence of definitions and commands",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 603.32,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_31_block_3",
+                    "content": "Definitions evaluated\nCommands executed by Python interpreter in a shell\nCommands (statements) instruct interpreter to do something\nCan be typed directly in a shell or stored in a file that is read",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 158.81,
+                        "x1": 671.84,
+                        "y1": 285.33
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_31_block_4",
+                    "content": "into the shell and evaluated",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 278.25,
+                        "x1": 344.46,
+                        "y1": 310.36
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_31_block_5",
+                    "content": "Problem Set 0 will introduce you to these in Anaconda",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 310.03,
+                        "x1": 550.99,
+                        "y1": 336.85
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 32,
+            "blocks": [
+                {
+                    "block_id": "page_32_block_1",
+                    "content": "PROGRAMMING ENVIRONMENT: \nANACONDA",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 28.41,
+                        "x1": 487.06,
+                        "y1": 102.11
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_32_block_2",
+                    "content": "Code Editor",
+                    "bbox": {
+                        "x0": 186.79,
+                        "y0": 321.12,
+                        "x1": 272.27,
+                        "y1": 345.2
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_32_block_3",
+                    "content": "Shell / Console",
+                    "bbox": {
+                        "x0": 535.06,
+                        "y0": 337.18,
+                        "x1": 643.49,
+                        "y1": 361.26
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 33,
+            "blocks": [
+                {
+                    "block_id": "page_33_block_1",
+                    "content": "OBJECTS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 167.33,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_33_block_2",
+                    "content": "Programs manipulate data objects\nObjects have a type that defines the kinds of things programs",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 671.6,
+                        "y1": 196.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_33_block_3",
+                    "content": "can do to them",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 189.21,
+                        "x1": 222.28,
+                        "y1": 221.32
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_33_block_4",
+                    "content": "30",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 220.73,
+                        "x1": 134.72,
+                        "y1": 254.82
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_33_block_5",
+                    "content": "Is a number\nWe can add/sub/mult/div/exp/etc\n'Ana'",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 247.92,
+                        "x1": 396.22,
+                        "y1": 330.06
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_33_block_6",
+                    "content": "Is a sequence of characters (aka a string)\nWe can grab substrings, but we can’t divide it by a number",
+                    "bbox": {
+                        "x0": 128.7,
+                        "y0": 323.4,
+                        "x1": 574.69,
+                        "y1": 371.97
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 34,
+            "blocks": [
+                {
+                    "block_id": "page_34_block_1",
+                    "content": "OBJECTS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 167.33,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_34_block_2",
+                    "content": "Scalar (cannot be subdivided)",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 362.89,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_34_block_3",
+                    "content": "Numbers: 8.3, 2\nTruth value: True, False",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 159.07,
+                        "x1": 298.04,
+                        "y1": 212.4
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_34_block_4",
+                    "content": "Non-scalar (have internal structure that can be accessed)",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 242.78,
+                        "x1": 630.01,
+                        "y1": 276.09
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_34_block_5",
+                    "content": "Lists\nDictionaries\nSequence of characters: \"abc\"",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 274.75,
+                        "x1": 354.64,
+                        "y1": 354.73
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 35,
+            "blocks": [
+                {
+                    "block_id": "page_35_block_1",
+                    "content": "SCALAR OBJECTS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 272.58,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_35_block_2",
+                    "content": "int – represent integers, ex. 5, -100\nfloat – represent real numbers, ex. 3.27, 2.0\nbool – represent Boolean values True and False\nNoneType – special and has one value, None\nCan use type() to see the type of an object",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.74,
+                        "x1": 595.14,
+                        "y1": 311.63
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_35_block_3",
+                    "content": ">>> type(5)\nint\n>>> type(3.0)\nfloat",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 324.57,
+                        "x1": 243.66,
+                        "y1": 451.79
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 36,
+            "blocks": [
+                {
+                    "block_id": "page_36_block_1",
+                    "content": "int",
+                    "bbox": {
+                        "x0": 112.52,
+                        "y0": 55.13,
+                        "x1": 191.7,
+                        "y1": 130.04
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_36_block_2",
+                    "content": "float",
+                    "bbox": {
+                        "x0": 441.84,
+                        "y0": 67.13,
+                        "x1": 573.68,
+                        "y1": 142.04
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_36_block_3",
+                    "content": "0.0, …, 0.21, … \n1.0, …, 3.14, …\n-1.22, …, -500.0 , …",
+                    "bbox": {
+                        "x0": 387.72,
+                        "y0": 147.31,
+                        "x1": 627.78,
+                        "y1": 229.42
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_36_block_4",
+                    "content": "0, 1, 2, … \n300, 301 …\n-1, -2, -3, …\n-400, -401, …",
+                    "bbox": {
+                        "x0": 74.12,
+                        "y0": 135.31,
+                        "x1": 230.17,
+                        "y1": 241.43
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_36_block_5",
+                    "content": "bool",
+                    "bbox": {
+                        "x0": 103.29,
+                        "y0": 314.16,
+                        "x1": 208.85,
+                        "y1": 389.07
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_36_block_6",
+                    "content": "NoneType",
+                    "bbox": {
+                        "x0": 351.58,
+                        "y0": 328.39,
+                        "x1": 562.56,
+                        "y1": 403.3
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_36_block_7",
+                    "content": "None",
+                    "bbox": {
+                        "x0": 433.06,
+                        "y0": 408.58,
+                        "x1": 481.09,
+                        "y1": 442.66
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_36_block_8",
+                    "content": "True\nFalse",
+                    "bbox": {
+                        "x0": 125.97,
+                        "y0": 394.34,
+                        "x1": 186.01,
+                        "y1": 452.44
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 37,
+            "blocks": [
+                {
+                    "block_id": "page_37_block_1",
+                    "content": "YOU TRY IT!",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 23.17,
+                        "x1": 228.64,
+                        "y1": 71.34
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_37_block_2",
+                    "content": "In your console, find the type of:",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 79.11,
+                        "x1": 391.09,
+                        "y1": 111.22
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_37_block_3",
+                    "content": "1234\n8.99\n9.0\nTrue\nFalse",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 110.51,
+                        "x1": 170.74,
+                        "y1": 250.89
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 38,
+            "blocks": [
+                {
+                    "block_id": "page_38_block_1",
+                    "content": "TYPE CONVERSIONS (CASTING)",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 452.45,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_38_block_2",
+                    "content": "Can convert object of one type to another",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 490.62,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_38_block_3",
+                    "content": "float(3) casts the int 3 to float 3.0\nint(3.9) casts (note the truncation!) the float 3.9 to int 3\nSome operations perform implicit casts",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 158.83,
+                        "x1": 611.84,
+                        "y1": 248.56
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_38_block_4",
+                    "content": "round(3.9)returns the int 4",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 247.99,
+                        "x1": 364.4,
+                        "y1": 282.18
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 39,
+            "blocks": [
+                {
+                    "block_id": "page_39_block_1",
+                    "content": "YOU TRY IT!",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 23.17,
+                        "x1": 228.64,
+                        "y1": 71.34
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_39_block_2",
+                    "content": "In your console, find the type of:",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 79.11,
+                        "x1": 391.09,
+                        "y1": 111.22
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_39_block_3",
+                    "content": "float(123)\nround(7.9)\nfloat(round(7.2))\nint(7.2)\nint(7.9)",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 110.51,
+                        "x1": 314.78,
+                        "y1": 250.89
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 40,
+            "blocks": [
+                {
+                    "block_id": "page_40_block_1",
+                    "content": "EXPRESSIONS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 229.95,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_40_block_2",
+                    "content": "Combine objects and operators to form expressions",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 582.69,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_40_block_3",
+                    "content": "3+2\n5/3\nAn expression has a value, which has a type",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 159.07,
+                        "x1": 499.69,
+                        "y1": 249.45
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_40_block_4",
+                    "content": "3+2 has value 5 and type int\n5/3 has value 1.666667 and type float\nPython evaluates expressions and stores the value. It doesn’t",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 248.11,
+                        "x1": 666.78,
+                        "y1": 337.72
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_40_block_5",
+                    "content": "store expressions!",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 331.53,
+                        "x1": 251.01,
+                        "y1": 363.64
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_40_block_6",
+                    "content": "Syntax for a simple expression",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 403.29,
+                        "x1": 367.14,
+                        "y1": 435.4
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_40_block_7",
+                    "content": "<object> <operator> <object>",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 428.73,
+                        "x1": 477.18,
+                        "y1": 469.55
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 41,
+            "blocks": [
+                {
+                    "block_id": "page_41_block_1",
+                    "content": "BIG  IDEA",
+                    "bbox": {
+                        "x0": 220.12,
+                        "y0": 7.22,
+                        "x1": 662.64,
+                        "y1": 138.26
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_41_block_2",
+                    "content": "Replace complex \nexpressions by ONE value",
+                    "bbox": {
+                        "x0": 56.33,
+                        "y0": 217.89,
+                        "x1": 658.49,
+                        "y1": 355.95
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_41_block_3",
+                    "content": "Work systematically to evaluate the expression.",
+                    "bbox": {
+                        "x0": 56.33,
+                        "y0": 359.91,
+                        "x1": 517.29,
+                        "y1": 392.02
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 42,
+            "blocks": [
+                {
+                    "block_id": "page_42_block_1",
+                    "content": "EXAMPLES",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 193.15,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_42_block_2",
+                    "content": ">>> 3+2\n5\n>>> (4+2)*6-1\n35\n>>> type((4+2)*6-1)\nint\n>>> float((4+2)*6-1)\n35.0",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.81,
+                        "x1": 362.22,
+                        "y1": 419.15
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 43,
+            "blocks": [
+                {
+                    "block_id": "page_43_block_1",
+                    "content": "YOU TRY IT!",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 23.17,
+                        "x1": 228.64,
+                        "y1": 71.34
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_43_block_2",
+                    "content": "In your console, find the values of the following expressions:",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 79.11,
+                        "x1": 660.97,
+                        "y1": 111.22
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_43_block_3",
+                    "content": "(13-4) / (12*12)\ntype(4*3)\ntype(4.0*3)\nint(1/2)",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 110.51,
+                        "x1": 302.76,
+                        "y1": 224.38
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 44,
+            "blocks": [
+                {
+                    "block_id": "page_44_block_1",
+                    "content": "OPERATORS on int and float",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 42.64,
+                        "x1": 473.22,
+                        "y1": 97.14
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_44_block_2",
+                    "content": "if both are ints, result is int\nif either or both are floats, result is float",
+                    "bbox": {
+                        "x0": 410.85,
+                        "y0": 145.11,
+                        "x1": 702.77,
+                        "y1": 190.79
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_44_block_3",
+                    "content": "result is always a float",
+                    "bbox": {
+                        "x0": 389.85,
+                        "y0": 237.68,
+                        "x1": 550.1,
+                        "y1": 261.76
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_44_block_4",
+                    "content": "i+j\nthe sum\ni-j\nthe difference\ni*j\nthe product\ni/j\ndivision",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.86,
+                        "x1": 307.21,
+                        "y1": 275.87
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_44_block_5",
+                    "content": "What is type of output?",
+                    "bbox": {
+                        "x0": 524.7,
+                        "y0": 308.44,
+                        "x1": 698.17,
+                        "y1": 332.52
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_44_block_6",
+                    "content": "i//j floor division\ni%j\nthe remainder when i is divided by j",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 306.5,
+                        "x1": 535.62,
+                        "y1": 383.63
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_44_block_7",
+                    "content": "i**j i to the power of j",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 414.26,
+                        "x1": 359.1,
+                        "y1": 455.51
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 45,
+            "blocks": [
+                {
+                    "block_id": "page_45_block_1",
+                    "content": "SIMPLE OPERATIONS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 323.35,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_45_block_2",
+                    "content": "Parentheses tell Python to do these operations first",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 127.29,
+                        "x1": 579.32,
+                        "y1": 159.4
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_45_block_3",
+                    "content": "Like math!\nOperator precedence without parentheses",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 159.07,
+                        "x1": 492.92,
+                        "y1": 222.81
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_45_block_4",
+                    "content": "**",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 247.73,
+                        "x1": 116.73,
+                        "y1": 281.82
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_45_block_5",
+                    "content": "* / % \nexecuted left to right, as appear in expression",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 301.16,
+                        "x1": 570.02,
+                        "y1": 335.35
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_45_block_6",
+                    "content": "+ –\nexecuted left to right, as appear in expression",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 354.32,
+                        "x1": 570.04,
+                        "y1": 388.51
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 46,
+            "blocks": [
+                {
+                    "block_id": "page_46_block_1",
+                    "content": "SO MANY OBJECTS, what to do \nwith them?!",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 28.41,
+                        "x1": 459.07,
+                        "y1": 102.11
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_46_block_2",
+                    "content": "100.4",
+                    "bbox": {
+                        "x0": 405.3,
+                        "y0": 113.17,
+                        "x1": 496.47,
+                        "y1": 166.63
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_3",
+                    "content": "temp =",
+                    "bbox": {
+                        "x0": 265.56,
+                        "y0": 114.17,
+                        "x1": 389.27,
+                        "y1": 167.63
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_4",
+                    "content": "a =",
+                    "bbox": {
+                        "x0": 38.5,
+                        "y0": 135.59,
+                        "x1": 95.51,
+                        "y1": 189.05
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_5",
+                    "content": "2",
+                    "bbox": {
+                        "x0": 146.13,
+                        "y0": 138.26,
+                        "x1": 166.39,
+                        "y1": 191.73
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_6",
+                    "content": "True",
+                    "bbox": {
+                        "x0": 426.46,
+                        "y0": 183.69,
+                        "x1": 498.18,
+                        "y1": 237.16
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_7",
+                    "content": "go =",
+                    "bbox": {
+                        "x0": 324.5,
+                        "y0": 185.38,
+                        "x1": 402.16,
+                        "y1": 238.84
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_8",
+                    "content": "b =",
+                    "bbox": {
+                        "x0": 99.32,
+                        "y0": 209.79,
+                        "x1": 158.22,
+                        "y1": 263.26
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_9",
+                    "content": "-0.3",
+                    "bbox": {
+                        "x0": 192.21,
+                        "y0": 210.07,
+                        "x1": 255.03,
+                        "y1": 263.54
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_46_block_10",
+                    "content": "flag =",
+                    "bbox": {
+                        "x0": 436.7,
+                        "y0": 262.38,
+                        "x1": 534.02,
+                        "y1": 315.85
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_11",
+                    "content": "123\nFalse",
+                    "bbox": {
+                        "x0": 289.29,
+                        "y0": 260.25,
+                        "x1": 643.93,
+                        "y1": 332.19
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_12",
+                    "content": "x =",
+                    "bbox": {
+                        "x0": 195.95,
+                        "y0": 280.56,
+                        "x1": 242.22,
+                        "y1": 334.03
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_13",
+                    "content": "17",
+                    "bbox": {
+                        "x0": 470.54,
+                        "y0": 335.26,
+                        "x1": 511.08,
+                        "y1": 388.72
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_14",
+                    "content": "n = \nsmall =",
+                    "bbox": {
+                        "x0": 47.09,
+                        "y0": 332.83,
+                        "x1": 427.51,
+                        "y1": 419.14
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_46_block_15",
+                    "content": "0.001",
+                    "bbox": {
+                        "x0": 186.33,
+                        "y0": 365.92,
+                        "x1": 277.5,
+                        "y1": 419.38
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 47,
+            "blocks": [
+                {
+                    "block_id": "page_47_block_1",
+                    "content": "VARIABLES",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 194.33,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_47_block_2",
+                    "content": "Computer science variables are different than math variables\nMath variables",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 670.16,
+                        "y1": 196.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_47_block_3",
+                    "content": "a + 2 = b - 1",
+                    "bbox": {
+                        "x0": 472.57,
+                        "y0": 180.48,
+                        "x1": 659.53,
+                        "y1": 221.31
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_47_block_4",
+                    "content": "Abstract\nCan represent many values",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 194.95,
+                        "x1": 334.22,
+                        "y1": 249.14
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_47_block_5",
+                    "content": "x * x = y",
+                    "bbox": {
+                        "x0": 472.57,
+                        "y0": 227.7,
+                        "x1": 601.93,
+                        "y1": 268.52
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_47_block_6",
+                    "content": "CS variables",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 323.9,
+                        "x1": 193.84,
+                        "y1": 357.21
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_47_block_7",
+                    "content": "a = b + 1",
+                    "bbox": {
+                        "x0": 490.21,
+                        "y0": 344.43,
+                        "x1": 619.57,
+                        "y1": 385.26
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_47_block_8",
+                    "content": "Is bound to one single value at a given time\nCan be bound to an expression",
+                    "bbox": {
+                        "x0": 92.68,
+                        "y0": 355.61,
+                        "x1": 464.55,
+                        "y1": 409.32
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_47_block_9",
+                    "content": "(but expressions evaluate to one value!)",
+                    "bbox": {
+                        "x0": 110.68,
+                        "y0": 404.11,
+                        "x1": 435.23,
+                        "y1": 430.93
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_47_block_10",
+                    "content": "m = 10\nF = m*9.98",
+                    "bbox": {
+                        "x0": 491.15,
+                        "y0": 394.27,
+                        "x1": 634.91,
+                        "y1": 463.9
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 48,
+            "blocks": [
+                {
+                    "block_id": "page_48_block_1",
+                    "content": "BINDING VARIABLES to VALUES",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 453.55,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_48_block_2",
+                    "content": "In CS, the equal sign is an assignment",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 439.19,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_48_block_3",
+                    "content": "One value to one variable name\nEqual sign is not equality, not “solve for x”\nAn assignment binds a value to a name",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 159.07,
+                        "x1": 455.46,
+                        "y1": 248.56
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_48_block_4",
+                    "content": "pi = 355/113",
+                    "bbox": {
+                        "x0": 234.9,
+                        "y0": 289.25,
+                        "x1": 407.46,
+                        "y1": 330.08
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_48_block_5",
+                    "content": "Step 1: Compute the value on the right hand side (the VALUE)",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 359.78,
+                        "x1": 677.17,
+                        "y1": 393.09
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_48_block_6",
+                    "content": "Value stored in computer memory\nStep 2: Store it (bind it) to the left hand side (the VARIABLE)",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 391.87,
+                        "x1": 658.09,
+                        "y1": 455.61
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_48_block_7",
+                    "content": "Retrieve value associated with name by invoking the name",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 454.39,
+                        "x1": 585.88,
+                        "y1": 481.21
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_48_block_8",
+                    "content": "(typing it out)",
+                    "bbox": {
+                        "x0": 110.7,
+                        "y0": 475.99,
+                        "x1": 221.9,
+                        "y1": 502.81
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 49,
+            "blocks": [
+                {
+                    "block_id": "page_49_block_1",
+                    "content": "YOU TRY IT!",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 23.17,
+                        "x1": 228.64,
+                        "y1": 71.34
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_49_block_2",
+                    "content": "Which of these are allowed in Python? Type them in the",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 79.11,
+                        "x1": 620.05,
+                        "y1": 111.22
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_49_block_3",
+                    "content": "console to check.",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 105.03,
+                        "x1": 242.51,
+                        "y1": 137.14
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_49_block_4",
+                    "content": "x = 6\n6 = x\nx*y = 3+4\nxy = 3+4",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 136.43,
+                        "x1": 218.75,
+                        "y1": 250.3
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 50,
+            "blocks": [
+                {
+                    "block_id": "page_50_block_1",
+                    "content": "ABSTRACTING EXPRESSIONS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 418.14,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_50_block_2",
+                    "content": "Why give names to values of expressions?",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 484.46,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_50_block_3",
+                    "content": "To reuse names instead of values\nMakes code easier to read and modify\nChoose variable names wisely",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 158.81,
+                        "x1": 420.77,
+                        "y1": 248.56
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_50_block_4",
+                    "content": "Code needs to read\nToday, tomorrow, next year\nBy you and others\nYou’ll be fine if you stick to letters,",
+                    "bbox": {
+                        "x0": 128.7,
+                        "y0": 248.64,
+                        "x1": 396.87,
+                        "y1": 346.04
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_50_block_5",
+                    "content": "underscores, don’t start with a number",
+                    "bbox": {
+                        "x0": 146.7,
+                        "y0": 341.4,
+                        "x1": 432.97,
+                        "y1": 365.49
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_50_block_6",
+                    "content": "#Compute approximate value for pi\npi = 355/113\nradius = 2.2\narea = pi*(radius**2)\ncircumference = pi*(radius*2)",
+                    "bbox": {
+                        "x0": 74.29,
+                        "y0": 372.82,
+                        "x1": 470.44,
+                        "y1": 502.94
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 51,
+            "blocks": [
+                {
+                    "block_id": "page_51_block_1",
+                    "content": "WHAT IS BEST CODE STYLE?",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 411.12,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_51_block_2",
+                    "content": "#do calculations\na = 355/113 *(2.2**2)\nc = 355/113 *(2.2*2)",
+                    "bbox": {
+                        "x0": 57.77,
+                        "y0": 115.81,
+                        "x1": 283.6,
+                        "y1": 189.63
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_51_block_3",
+                    "content": "p = 355/113\nr = 2.2\n#multiply p with r squared\na = p*(r**2)\n#multiply p with r times 2\nc = p*(r*2)",
+                    "bbox": {
+                        "x0": 57.77,
+                        "y0": 212.9,
+                        "x1": 337.24,
+                        "y1": 351.52
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_51_block_4",
+                    "content": "#calculate area and circumference of a circle \n#using an approximation for pi\npi = 355/113\nradius = 2.2\narea = pi*(radius**2)\ncircumference = pi*(radius*2)",
+                    "bbox": {
+                        "x0": 57.77,
+                        "y0": 370.74,
+                        "x1": 552.17,
+                        "y1": 509.36
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 52,
+            "blocks": [
+                {
+                    "block_id": "page_52_block_1",
+                    "content": "CHANGE BINDINGS",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 302.7,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_52_block_2",
+                    "content": "Can re-bind variable names using new",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 126.98,
+                        "x1": 451.26,
+                        "y1": 160.29
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_52_block_3",
+                    "content": "assignment statements\nPrevious value may still stored in memory but",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 153.21,
+                        "x1": 523.62,
+                        "y1": 221.32
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_52_block_4",
+                    "content": "lost the handle for it\nValue for area does not change until you tell the",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 215.13,
+                        "x1": 550.09,
+                        "y1": 284.01
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_52_block_5",
+                    "content": "computer to do the calculation again",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 276.93,
+                        "x1": 432.06,
+                        "y1": 309.04
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_52_block_6",
+                    "content": "3.14",
+                    "bbox": {
+                        "x0": 598.12,
+                        "y0": 312.11,
+                        "x1": 631.73,
+                        "y1": 335.99
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_52_block_7",
+                    "content": "pi",
+                    "bbox": {
+                        "x0": 395.68,
+                        "y0": 329.36,
+                        "x1": 417.28,
+                        "y1": 359.98
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_52_block_8",
+                    "content": "2.2",
+                    "bbox": {
+                        "x0": 602.32,
+                        "y0": 350.42,
+                        "x1": 627.54,
+                        "y1": 374.31
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_52_block_9",
+                    "content": "pi = 3.14\nradius = 2.2",
+                    "bbox": {
+                        "x0": 74.68,
+                        "y0": 320.81,
+                        "x1": 218.74,
+                        "y1": 384.34
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_52_block_10",
+                    "content": "radius",
+                    "bbox": {
+                        "x0": 397.95,
+                        "y0": 358.81,
+                        "x1": 462.51,
+                        "y1": 389.43
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_52_block_11",
+                    "content": "3.2",
+                    "bbox": {
+                        "x0": 602.32,
+                        "y0": 387.34,
+                        "x1": 627.54,
+                        "y1": 411.22
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_52_block_12",
+                    "content": "area",
+                    "bbox": {
+                        "x0": 393.12,
+                        "y0": 389.28,
+                        "x1": 436.2,
+                        "y1": 419.9
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_52_block_13",
+                    "content": "area = pi*(radius**2)\nradius = radius+1",
+                    "bbox": {
+                        "x0": 74.68,
+                        "y0": 378.53,
+                        "x1": 327.82,
+                        "y1": 441.74
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_52_block_14",
+                    "content": "15.1976",
+                    "bbox": {
+                        "x0": 585.52,
+                        "y0": 427.78,
+                        "x1": 644.32,
+                        "y1": 451.66
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 53,
+            "blocks": [
+                {
+                    "block_id": "page_53_block_1",
+                    "content": "BIG  IDEA",
+                    "bbox": {
+                        "x0": 220.12,
+                        "y0": 7.22,
+                        "x1": 662.64,
+                        "y1": 138.26
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_53_block_2",
+                    "content": "Lines are evaluated one \nafter the other",
+                    "bbox": {
+                        "x0": 56.33,
+                        "y0": 174.69,
+                        "x1": 628.13,
+                        "y1": 312.75
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_53_block_3",
+                    "content": "No skipping around, yet.\nWe’ll see how lines can be skipped/repeated later.",
+                    "bbox": {
+                        "x0": 56.33,
+                        "y0": 359.91,
+                        "x1": 544.65,
+                        "y1": 417.94
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 54,
+            "blocks": [
+                {
+                    "block_id": "page_54_block_1",
+                    "content": "YOU TRY IT!",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 23.17,
+                        "x1": 228.64,
+                        "y1": 71.34
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_54_block_2",
+                    "content": "These 3 lines are executed in order. What are the values of",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 79.11,
+                        "x1": 643.02,
+                        "y1": 111.22
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_54_block_3",
+                    "content": "meters and feet variables at each line in the code?\nmeters = 100\nfeet = 3.2808 * meters\nmeters = 200",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 104.79,
+                        "x1": 600.61,
+                        "y1": 253.13
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_54_block_4",
+                    "content": "ANSWER:",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 360.4,
+                        "x1": 128.04,
+                        "y1": 385.38
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_54_block_5",
+                    "content": "Let’s use PythonTutor to figure out what is going on",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 390.15,
+                        "x1": 433.49,
+                        "y1": 414.23
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_54_block_6",
+                    "content": "Follow along with this Python Tutor LINK",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 414.1,
+                        "x1": 439.34,
+                        "y1": 440.91
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_54_block_7",
+                    "content": "Where did we tell Python to (re)calculate feet?",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 446.19,
+                        "x1": 398.42,
+                        "y1": 470.27
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        },
+        {
+            "page_number": 55,
+            "blocks": [
+                {
+                    "block_id": "page_55_block_1",
+                    "content": "YOU TRY IT!",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 23.17,
+                        "x1": 228.64,
+                        "y1": 71.34
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_55_block_2",
+                    "content": "Swap values of x and y without binding the numbers directly.",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 79.11,
+                        "x1": 670.67,
+                        "y1": 111.22
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_55_block_3",
+                    "content": "Debug (aka fix) this code.",
+                    "bbox": {
+                        "x0": 74.7,
+                        "y0": 105.03,
+                        "x1": 319.43,
+                        "y1": 137.14
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_4",
+                    "content": "1",
+                    "bbox": {
+                        "x0": 458.05,
+                        "y0": 169.84,
+                        "x1": 466.47,
+                        "y1": 193.72
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_5",
+                    "content": "x",
+                    "bbox": {
+                        "x0": 292.04,
+                        "y0": 187.1,
+                        "x1": 302.84,
+                        "y1": 217.71
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_6",
+                    "content": "x = 1\ny = 2",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 158.55,
+                        "x1": 128.7,
+                        "y1": 228.17
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_7",
+                    "content": "2",
+                    "bbox": {
+                        "x0": 458.05,
+                        "y0": 208.16,
+                        "x1": 466.47,
+                        "y1": 232.04
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_8",
+                    "content": "y",
+                    "bbox": {
+                        "x0": 292.55,
+                        "y0": 216.54,
+                        "x1": 303.35,
+                        "y1": 247.16
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_9",
+                    "content": "y = x\nx = y",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 244.95,
+                        "x1": 128.7,
+                        "y1": 314.57
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_10",
+                    "content": "Python Tutor to the rescue?",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 310.95,
+                        "x1": 346.6,
+                        "y1": 343.06
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_55_block_11",
+                    "content": "ANSWER:",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 360.4,
+                        "x1": 128.04,
+                        "y1": 385.38
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_55_block_12",
+                    "content": "1",
+                    "bbox": {
+                        "x0": 501.63,
+                        "y0": 375.24,
+                        "x1": 510.06,
+                        "y1": 399.12
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_13",
+                    "content": "x",
+                    "bbox": {
+                        "x0": 291.99,
+                        "y0": 392.5,
+                        "x1": 302.79,
+                        "y1": 423.11
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_14",
+                    "content": "2",
+                    "bbox": {
+                        "x0": 501.63,
+                        "y0": 413.56,
+                        "x1": 510.06,
+                        "y1": 437.44
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_15",
+                    "content": "y",
+                    "bbox": {
+                        "x0": 291.99,
+                        "y0": 421.93,
+                        "x1": 302.79,
+                        "y1": 452.55
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_55_block_16",
+                    "content": "temp",
+                    "bbox": {
+                        "x0": 284.03,
+                        "y0": 452.41,
+                        "x1": 327.11,
+                        "y1": 483.03
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                }
+            ]
+        },
+        {
+            "page_number": 56,
+            "blocks": [
+                {
+                    "block_id": "page_56_block_1",
+                    "content": "SUMMARY",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 45.69,
+                        "x1": 195.55,
+                        "y1": 84.82
+                    },
+                    "predicted_type": "title_or_label_candidate",
+                    "classification_reason": "The original block contains short uppercase text."
+                },
+                {
+                    "block_id": "page_56_block_2",
+                    "content": "Objects",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 127.29,
+                        "x1": 148.52,
+                        "y1": 159.4
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_56_block_3",
+                    "content": "Objects in memory have types.\nTypes tell Python what operations you can do with the objects.\nExpressions evaluate to one value and involve objects and operations.\nVariables bind names to objects.\n= sign is an assignment, for ex. var = type(5*4)",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 158.81,
+                        "x1": 683.38,
+                        "y1": 299.45
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_56_block_4",
+                    "content": "Programs",
+                    "bbox": {
+                        "x0": 56.7,
+                        "y0": 322.89,
+                        "x1": 167.0,
+                        "y1": 355.0
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                },
+                {
+                    "block_id": "page_56_block_5",
+                    "content": "Programs only do what you tell them to do.\nLines of code are executed in order.\nGood variable names and comments help you read code later.",
+                    "bbox": {
+                        "x0": 92.7,
+                        "y0": 354.29,
+                        "x1": 616.87,
+                        "y1": 435.27
+                    },
+                    "predicted_type": "list_candidate",
+                    "classification_reason": "The block contains bullet markers or numbered steps."
+                }
+            ]
+        },
+        {
+            "page_number": 57,
+            "blocks": [
+                {
+                    "block_id": "page_57_block_1",
+                    "content": "57",
+                    "bbox": {
+                        "x0": 575.07,
+                        "y0": 391.55,
+                        "x1": 585.72,
+                        "y1": 400.45
+                    },
+                    "predicted_type": "short_label_candidate",
+                    "classification_reason": "The block contains a short text."
+                },
+                {
+                    "block_id": "page_57_block_2",
+                    "content": "MIT OpenCourseWare \nhttps://ocw.mit.edu",
+                    "bbox": {
+                        "x0": 82.58,
+                        "y0": 550.07,
+                        "x1": 110.76,
+                        "y1": 692.75
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_57_block_3",
+                    "content": "6.100L Introduction to Computer Science and Programming Using Python\nFall 2022",
+                    "bbox": {
+                        "x0": 136.0,
+                        "y0": 170.74,
+                        "x1": 174.1,
+                        "y1": 692.75
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                },
+                {
+                    "block_id": "page_57_block_4",
+                    "content": "For information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.",
+                    "bbox": {
+                        "x0": 207.56,
+                        "y0": 112.53,
+                        "x1": 223.19,
+                        "y1": 692.75
+                    },
+                    "predicted_type": "paragraph_candidate",
+                    "classification_reason": "The block does not match the previous rules."
+                }
+            ]
+        }
+    ],
+    "processing": {
+        "removed_footer": "6.100L Lecture 1",
+        "removed_footer_occurrences": 54,
+        "removed_page_numbers": 56
+    }
+}

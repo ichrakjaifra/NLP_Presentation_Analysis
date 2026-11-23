@@ -1,0 +1,234 @@
+{
+    "source_file": "presentation_test.pdf",
+    "number_of_pages": 57,
+    "pages": [
+        {
+            "page_number": 1,
+            "content": "WELCOME!\n(download slides and .py files from\nthe class site to follow along)\n6.100L Lecture 1\nAna Bell\n1"
+        },
+        {
+            "page_number": 2,
+            "content": "TODAY\n- Course info\n- What is computation\n- Python basics\n- Mathematical operations\n- Python variables and types\n- NOTE: slides and code files up before each lecture\n- Highly encourage you to download them before class\n- Take notes and run code files when I do\n- Do the in-class “You try it” breaks\n- Class will not be recorded\n- Class will be live-Zoomed for those sick/quarantine\n6.100L Lecture 1\n2"
+        },
+        {
+            "page_number": 3,
+            "content": "WHY COME TO CLASS?\n- You get out of this course what you put into it\n- Lectures\n- Intuition for concept\n- Teach you the concept\n- Ask me questions!\n- Examples of concept\n- Opportunity to\npractice practice practice\n- Repeat\n6.100L Lecture 1\n3"
+        },
+        {
+            "page_number": 4,
+            "content": "PRACTICE\nFebruary 3, 2016\n6.0001 LECTURE 1\nPROBLEM\nSOLVING\nPROGRAMMING\nSKILL\nPSETS\nEXAMS\nMANDATORY\nFINGER\nEXERCISES\nOPTIONAL\n(practice)\nOFFICE\nHOURS\nPIAZZA\nLECTURES\nRECITATION\nKNOWLEDGE\nOF CONCEPTS\n6.100L Lecture 1\n4"
+        },
+        {
+            "page_number": 5,
+            "content": "TOPICS\n- Solving problems using computation\n- Python programming language\n- Organizing modular programs\n- Some simple but important algorithms\n- Algorithmic complexity\n6.100L Lecture 1\n5"
+        },
+        {
+            "page_number": 6,
+            "content": "LET’S GOOOOO!\n6"
+        },
+        {
+            "page_number": 7,
+            "content": "TYPES of KNOWLEDGE\n- Declarative knowledge is statements of fact\n- Imperative knowledge is a recipe or “how-to”\n- Programming is about writing recipes to generate facts\n6.100L Lecture 1\n7"
+        },
+        {
+            "page_number": 8,
+            "content": "NUMERICAL EXAMPLE\n- Square root of a number x is y such that y*y = x\n- Start with a guess, g\n1)\nIf g*g is close enough to x, stop and say g is the answer\n2)\nOtherwise make a new guess by averaging g and x/g\n3)\nUsing the new guess, repeat process until close enough\n- Let’s try it for x = 16 and an initial guess of 3\ng\ng*g\nx/g\n(g+x/g)/2\n3\n9\n16/3\n4.17\n6.100L Lecture 1\n8"
+        },
+        {
+            "page_number": 9,
+            "content": "NUMERICAL EXAMPLE\n- Square root of a number x is y such that y*y = x\n- Start with a guess, g\n1)\nIf g*g is close enough to x, stop and say g is the answer\n2)\nOtherwise make a new guess by averaging g and x/g\n3)\nUsing the new guess, repeat process until close enough\n- Let’s try it for x = 16 and an initial guess of 3\ng\ng*g\nx/g\n(g+x/g)/2\n3\n9\n16/3\n4.17\n4.17\n17.36\n3.837\n4.0035\n6.100L Lecture 1\n9"
+        },
+        {
+            "page_number": 10,
+            "content": "NUMERICAL EXAMPLE\n- Square root of a number x is y such that y*y = x\n- Start with a guess, g\n1)\nIf g*g is close enough to x, stop and say g is the answer\n2)\nOtherwise make a new guess by averaging g and x/g\n3)\nUsing the new guess, repeat process until close enough\n- Let’s try it for x = 16 and an initial guess of 3\ng\ng*g\nx/g\n(g+x/g)/2\n3\n9\n16/3\n4.17\n4.17\n17.36\n3.837\n4.0035\n4.0035\n16.0277\n3.997\n4.000002\n6.100L Lecture 1\n10"
+        },
+        {
+            "page_number": 11,
+            "content": "WE HAVE an ALGORITHM\n1) Sequence of simple steps\n2) Flow of control process that specifies when each step is\nexecuted\n3) A means of determining when to stop\n6.100L Lecture 1\n11"
+        },
+        {
+            "page_number": 12,
+            "content": "ALGORITHMS are RECIPES /\nRECIPES are ALGORITHMS\n- Bake cake from a box\n- 1) Mix dry ingredients\n- 2) Add eggs and milk\n- 3) Pour mixture in a pan\n- 4) Bake at 350F for 5 minutes\n- 5) Stick a toothpick in the cake\n- 6a) If toothpick does not come out clean, repeat step 4 and 5\n- 6b) Otherwise, take pan out of the oven\n- 7) Eat\n6.100L Lecture 1\n12"
+        },
+        {
+            "page_number": 13,
+            "content": "COMPUTERS are MACHINES that\nEXECUTE ALGORITHMS\n- Two things computers do:\n- Performs simple operations\n100s of billions per second!\n- Remembers results\n100s of gigabytes of storage!\n- What kinds of calculations?\n- Built-in to the machine, e.g., +\n- Ones that you define as the programmer\n- The BIG IDEA here?\n6.100L Lecture 1\n13"
+        },
+        {
+            "page_number": 14,
+            "content": "A COMPUTER WILL ONLY DO\nWHAT YOU TELL IT TO DO\n6.100L Lecture 1\n14"
+        },
+        {
+            "page_number": 15,
+            "content": "COMPUTERS are MACHINES that\nEXECUTE ALGORITHMS\n- Fixed program computer\n- Fixed set of algorithms\n- What we had until 1940’s\n- Stored program computer\n- Machine stores and executes instructions\n- Key insight: Programs are no different from other kinds of data\n6.100L Lecture 1\n15"
+        },
+        {
+            "page_number": 16,
+            "content": "STORED PROGRAM COMPUTER\n- Sequence of instructions stored inside computer\n- Built from predefined set of primitive instructions\n1)\nArithmetic and logical\n2)\nSimple tests\n3)\nMoving data\n- Special program (interpreter) executes each instruction in\norder\n- Use tests to change flow of control through sequence\n- Stops when it runs out of instructions or executes a halt instruction\n6.100L Lecture 1\n16"
+        },
+        {
+            "page_number": 17,
+            "content": "6.100L Lecture 1\nMEMORY\nCONTROL\nUNIT\nARITHMETIC\nLOGIC UNIT\nINPUT\nOUTPUT\nprogram counter\ndo primitive ops\n17"
+        },
+        {
+            "page_number": 18,
+            "content": "6.100L Lecture 1\nMEMORY\nCONTROL\nUNIT\nARITHMETIC\nLOGIC UNIT\nINPUT\nOUTPUT\n3456\n3\n3457\n4\n3458\n3459\nTrue\n3460\n3461\nFalse\n7889\n5\n7890\n2\n7891\n7892\n7893\n7894\nAdd\n3456\n3457\nAdd\n7889\n7890\nStore\n3458\nStore\n7891\nCompare\n3458\n7891\nPrint\n18"
+        },
+        {
+            "page_number": 19,
+            "content": "6.100L Lecture 1\nMEMORY\nCONTROL\nUNIT\nARITHMETIC\nLOGIC UNIT\nINPUT\nOUTPUT\n3456\n3\n3457\n4\n3458\n3459\nTrue\n3460\n3461\nFalse\n7889\n5\n7890\n2\n7891\n7892\n7893\n7894\nAdd\n3456\n3457\nAdd\n7889\n7890\nStore\n3458\nStore\n7891\nCompare\n3458\n7891\nPrint\n19"
+        },
+        {
+            "page_number": 20,
+            "content": "6.100L Lecture 1\nMEMORY\nCONTROL\nUNIT\nARITHMETIC\nLOGIC UNIT\nINPUT\nOUTPUT\n3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse\n7889\n5\n7890\n2\n7891\n7892\n7893\n7894\nAdd\n3456\n3457\nAdd\n7889\n7890\nStore\n3458\nStore\n7891\nCompare\n3458\n7891\nPrint\n20"
+        },
+        {
+            "page_number": 21,
+            "content": "6.100L Lecture 1\nMEMORY\nCONTROL\nUNIT\nARITHMETIC\nLOGIC UNIT\nINPUT\nOUTPUT\n3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse\n7889\n5\n7890\n2\n7891\n7892\n7893\n7894\nAdd\n3456\n3457\nAdd\n7889\n7890\nStore\n3458\nStore\n7891\nCompare\n3458\n7891\nPrint\n21"
+        },
+        {
+            "page_number": 22,
+            "content": "6.100L Lecture 1\nMEMORY\nCONTROL\nUNIT\nARITHMETIC\nLOGIC UNIT\nINPUT\nOUTPUT\n3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse\n7889\n5\n7890\n2\n7891\n7\n7892\n7893\n7894\nAdd\n3456\n3457\nAdd\n7889\n7890\nStore\n3458\nStore\n7891\nCompare\n3458\n7891\nPrint\n22"
+        },
+        {
+            "page_number": 23,
+            "content": "6.100L Lecture 1\nMEMORY\nCONTROL\nUNIT\nARITHMETIC\nLOGIC UNIT\nINPUT\nOUTPUT\n3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse\n7889\n5\n7890\n2\n7891\n7\n7892\n7893\n7894\nAdd\n3456\n3457\nAdd\n7889\n7890\nStore\n3458\nStore\n7891\nCompare\n3458\n7891\nPrint\n23"
+        },
+        {
+            "page_number": 24,
+            "content": "6.100L Lecture 1\nMEMORY\nCONTROL\nUNIT\nARITHMETIC\nLOGIC UNIT\nINPUT\nOUTPUT\n3456\n3\n3457\n4\n3458\n7\n3459\nTrue\n3460\n3461\nFalse\n7889\n5\n7890\n2\n7891\n7\n7892\n7893\n7894\nAdd\n3456\n3457\nAdd\n7889\n7890\nStore\n3458\nStore\n7891\nCompare\n3458\n7891\nPrint\nTrue\n24"
+        },
+        {
+            "page_number": 25,
+            "content": "BASIC PRIMITIVES\n- Turing showed that you can compute anything with a very\nsimple machine with only 6 primitives: left, right, print, scan,\nerase, no op\n- Real programming languages have\n- More convenient set of primitives\n- Ways to combine primitives to create new primitives\n- Anything computable in one language is computable in any\nother programming language\n6.100L Lecture 1\n© source unknown. All rights reserved. This\ncontent is excluded from our Creative Commons\nlicense. For more information, see\nhttps://ocw.mit.edu/help/faq-fair-use/\n25"
+        },
+        {
+            "page_number": 26,
+            "content": "ASPECTS of LANGUAGES\n- Primitive constructs\n- English: words\n- Programming language: numbers, strings, simple operators\n6.100L Lecture 1\n26"
+        },
+        {
+            "page_number": 27,
+            "content": "ASPECTS of LANGUAGES\n- Syntax\n- English: \"cat dog boy\"    not syntactically valid\n\"cat hugs boy\" syntactically valid\n- Programming language: \"hi\"5 not syntactically valid\n\"hi\"*5 syntactically valid\n6.100L Lecture 1\n27"
+        },
+        {
+            "page_number": 28,
+            "content": "ASPECTS of LANGUAGES\n- Static semantics: which syntactically valid strings have meaning\n- English: \"I are hungry\" syntactically valid\nbut static semantic error\n- PL: \"hi\"+5 syntactically valid\nbut static semantic error\n6.100L Lecture 1\n28"
+        },
+        {
+            "page_number": 29,
+            "content": "ASPECTS of LANGUAGES\n- Semantics: the meaning associated with a syntactically correct\nstring of symbols with no static semantic errors\n- English: can have many meanings \"The chicken is\nready to eat.\"\n- Programs have only one meaning\n- But the meaning may not be what programmer intended\n6.100L Lecture 1\n29"
+        },
+        {
+            "page_number": 30,
+            "content": "WHERE THINGS GO WRONG\n- Syntactic errors\n- Common and easily caught\n- Static semantic errors\n- Some languages check for these before running\nprogram\n- Can cause unpredictable behavior\n- No linguistic errors, but different meaning\nthan what programmer intended\n- Program crashes, stops running\n- Program runs forever\n- Program gives an answer,  but it’s wrong!\n6.100L Lecture 1\n30"
+        },
+        {
+            "page_number": 31,
+            "content": "PYTHON PROGRAMS\n- A program is a sequence of definitions and commands\n- Definitions evaluated\n- Commands executed by Python interpreter in a shell\n- Commands (statements) instruct interpreter to do something\n- Can be typed directly in a shell or stored in a file that is read\ninto the shell and evaluated\n- Problem Set 0 will introduce you to these in Anaconda\n6.100L Lecture 1\n31"
+        },
+        {
+            "page_number": 32,
+            "content": "PROGRAMMING ENVIRONMENT:\nANACONDA\n6.100L Lecture 1\nCode Editor\nShell / Console\n32"
+        },
+        {
+            "page_number": 33,
+            "content": "OBJECTS\n- Programs manipulate data objects\n- Objects have a type that defines the kinds of things programs\ncan do to them\n- 30\n- Is a number\n- We can add/sub/mult/div/exp/etc\n- 'Ana'\n- Is a sequence of characters (aka a string)\n- We can grab substrings, but we can’t divide it by a number\n6.100L Lecture 1\n33"
+        },
+        {
+            "page_number": 34,
+            "content": "OBJECTS\n- Scalar (cannot be subdivided)\n- Numbers: 8.3, 2\n- Truth value: True, False\n- Non-scalar (have internal structure that can be accessed)\n- Lists\n- Dictionaries\n- Sequence of characters: \"abc\"\n6.100L Lecture 1\n34"
+        },
+        {
+            "page_number": 35,
+            "content": "SCALAR OBJECTS\n- int – represent integers, ex. 5, -100\n- float – represent real numbers, ex. 3.27, 2.0\n- bool – represent Boolean values True and False\n- NoneType – special and has one value, None\n- Can use type() to see the type of an object\n>>> type(5)\nint\n>>> type(3.0)\nfloat\n6.100L Lecture 1\n35"
+        },
+        {
+            "page_number": 36,
+            "content": "6.100L Lecture 1\nint\n0, 1, 2, …\n300, 301 …\n-1, -2, -3, …\n-400, -401, …\nfloat\n0.0, …, 0.21, …\n1.0, …, 3.14, …\n-1.22, …, -500.0 , …\nbool\nTrue\nFalse\nNoneType\nNone\n36"
+        },
+        {
+            "page_number": 37,
+            "content": "YOU TRY IT!\n- In your console, find the type of:\n- 1234\n- 8.99\n- 9.0\n- True\n- False\n6.100L Lecture 1\n37"
+        },
+        {
+            "page_number": 38,
+            "content": "TYPE CONVERSIONS (CASTING)\n- Can convert object of one type to another\n- float(3) casts the int 3 to float 3.0\n- int(3.9) casts (note the truncation!) the float 3.9 to int 3\n- Some operations perform implicit casts\n- round(3.9)returns the int 4\n6.100L Lecture 1\n38"
+        },
+        {
+            "page_number": 39,
+            "content": "YOU TRY IT!\n- In your console, find the type of:\n- float(123)\n- round(7.9)\n- float(round(7.2))\n- int(7.2)\n- int(7.9)\n6.100L Lecture 1\n39"
+        },
+        {
+            "page_number": 40,
+            "content": "EXPRESSIONS\n- Combine objects and operators to form expressions\n- 3+2\n- 5/3\n- An expression has a value, which has a type\n- 3+2 has value 5 and type int\n- 5/3 has value 1.666667 and type float\n- Python evaluates expressions and stores the value. It doesn’t\nstore expressions!\n- Syntax for a simple expression\n<object> <operator> <object>\n6.100L Lecture 1\n40"
+        },
+        {
+            "page_number": 41,
+            "content": "BIG  IDEA\nReplace complex\nexpressions by ONE value\nWork systematically to evaluate the expression.\n6.100L Lecture 1\n41"
+        },
+        {
+            "page_number": 42,
+            "content": "EXAMPLES\n- >>> 3+2\n- 5\n- >>> (4+2)*6-1\n- 35\n- >>> type((4+2)*6-1)\n- int\n- >>> float((4+2)*6-1)\n- 35.0\n6.100L Lecture 1\n42"
+        },
+        {
+            "page_number": 43,
+            "content": "YOU TRY IT!\n- In your console, find the values of the following expressions:\n- (13-4) / (12*12)\n- type(4*3)\n- type(4.0*3)\n- int(1/2)\n6.100L Lecture 1\n43"
+        },
+        {
+            "page_number": 44,
+            "content": "OPERATORS on int and float\n- i+j\nthe sum\n- i-j\nthe difference\n- i*j\nthe product\n- i/j\ndivision\n- i//j floor division\n- i%j\nthe remainder when i is divided by j\n- i**j i to the power of j\n6.100L Lecture 1\nif both are ints, result is int\nif either or both are floats, result is float\nresult is always a float\nWhat is type of output?\n44"
+        },
+        {
+            "page_number": 45,
+            "content": "SIMPLE OPERATIONS\n- Parentheses tell Python to do these operations first\n- Like math!\n- Operator precedence without parentheses\n**\n* / %\nexecuted left to right, as appear in expression\n+ –\nexecuted left to right, as appear in expression\n6.100L Lecture 1\n45"
+        },
+        {
+            "page_number": 46,
+            "content": "SO MANY OBJECTS, what to do\nwith them?!\n6.100L Lecture 1\n2\n-0.3\n17\nTrue\n0.001\n123\nFalse\n100.4\nx =\nb =\na =\nflag =\ngo =\ntemp =\nn =\nsmall =\n46"
+        },
+        {
+            "page_number": 47,
+            "content": "VARIABLES\n- Computer science variables are different than math variables\n- Math variables\n- Abstract\n- Can represent many values\n- CS variables\n- Is bound to one single value at a given time\n- Can be bound to an expression\n(but expressions evaluate to one value!)\n6.100L Lecture 1\na + 2 = b - 1\na = b + 1\nx * x = y\nm = 10\nF = m*9.98\n47"
+        },
+        {
+            "page_number": 48,
+            "content": "BINDING VARIABLES to VALUES\n- In CS, the equal sign is an assignment\n- One value to one variable name\n- Equal sign is not equality, not “solve for x”\n- An assignment binds a value to a name\n- Step 1: Compute the value on the right hand side (the VALUE)\n- Value stored in computer memory\n- Step 2: Store it (bind it) to the left hand side (the VARIABLE)\n- Retrieve value associated with name by invoking the name\n(typing it out)\n6.100L Lecture 1\npi = 355/113\n48"
+        },
+        {
+            "page_number": 49,
+            "content": "YOU TRY IT!\n- Which of these are allowed in Python? Type them in the\nconsole to check.\n- x = 6\n- 6 = x\n- x*y = 3+4\n- xy = 3+4\n6.100L Lecture 1\n49"
+        },
+        {
+            "page_number": 50,
+            "content": "ABSTRACTING EXPRESSIONS\n- Why give names to values of expressions?\n- To reuse names instead of values\n- Makes code easier to read and modify\n- Choose variable names wisely\n- Code needs to read\n- Today, tomorrow, next year\n- By you and others\n- You’ll be fine if you stick to letters,\nunderscores, don’t start with a number\n6.100L Lecture 1\n#Compute approximate value for pi\npi = 355/113\nradius = 2.2\narea = pi*(radius**2)\ncircumference = pi*(radius*2)\n50"
+        },
+        {
+            "page_number": 51,
+            "content": "WHAT IS BEST CODE STYLE?\n6.100L Lecture 1\n#do calculations\na = 355/113 *(2.2**2)\nc = 355/113 *(2.2*2)\n#calculate area and circumference of a circle\n#using an approximation for pi\npi = 355/113\nradius = 2.2\narea = pi*(radius**2)\ncircumference = pi*(radius*2)\np = 355/113\nr = 2.2\n#multiply p with r squared\na = p*(r**2)\n#multiply p with r times 2\nc = p*(r*2)\n51"
+        },
+        {
+            "page_number": 52,
+            "content": "CHANGE BINDINGS\n- Can re-bind variable names using new\nassignment statements\n- Previous value may still stored in memory but\nlost the handle for it\n- Value for area does not change until you tell the\ncomputer to do the calculation again\n6.100L Lecture 1\npi\nradius\narea\n3.14\n2.2\n15.1976\n3.2\npi = 3.14\nradius = 2.2\narea = pi*(radius**2)\nradius = radius+1\n52"
+        },
+        {
+            "page_number": 53,
+            "content": "BIG  IDEA\nLines are evaluated one\nafter the other\nNo skipping around, yet.\nWe’ll see how lines can be skipped/repeated later.\n6.100L Lecture 1\n53"
+        },
+        {
+            "page_number": 54,
+            "content": "YOU TRY IT!\n- These 3 lines are executed in order. What are the values of\nmeters and feet variables at each line in the code?\nmeters = 100\nfeet = 3.2808 * meters\nmeters = 200\n6.100L Lecture 1\nANSWER:\nLet’s use PythonTutor to figure out what is going on\n- Follow along with this Python Tutor LINK\nWhere did we tell Python to (re)calculate feet?\n54"
+        },
+        {
+            "page_number": 55,
+            "content": "YOU TRY IT!\n- Swap values of x and y without binding the numbers directly.\nDebug (aka fix) this code.\nx = 1\ny = 2\ny = x\nx = y\n- Python Tutor to the rescue?\n6.100L Lecture 1\nANSWER:\nx\ny\n1\n2\nx\ny\ntemp\n1\n2\n55"
+        },
+        {
+            "page_number": 56,
+            "content": "SUMMARY\n- Objects\n- Objects in memory have types.\n- Types tell Python what operations you can do with the objects.\n- Expressions evaluate to one value and involve objects and operations.\n- Variables bind names to objects.\n- = sign is an assignment, for ex. var = type(5*4)\n- Programs\n- Programs only do what you tell them to do.\n- Lines of code are executed in order.\n- Good variable names and comments help you read code later.\n6.100L Lecture 1\n56"
+        },
+        {
+            "page_number": 57,
+            "content": "MIT OpenCourseWare\nhttps://ocw.mit.edu\n6.100L Introduction to Computer Science and Programming Using Python\nFall 2022\nFor information about citing these materials or our Terms of Use, visit: https://ocw.mit.edu/terms.\n57"
+        }
+    ]
+}
