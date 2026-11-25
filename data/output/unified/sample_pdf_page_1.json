@@ -1,0 +1,51 @@
+
+{
+  "schema_version": "0.1",
+  "document": {
+    "document_id": "pdf_test_001",
+    "filename": "presentation_test.pdf",
+    "format": "pdf",
+    "number_of_units": 57
+  },
+  "units": [
+    {
+      "unit_id": "page_1",
+      "unit_number": 1,
+      "unit_type": "page",
+      "elements": [
+        {
+          "element_id": "page_1_block_1",
+          "order": 1,
+          "type": "text",
+          "subtype": null,
+          "text": "WELCOME!\n(download slides and .py files from",
+          "classification": null,
+          "source": {
+            "extraction_method": "PyMuPDF get_text('blocks')",
+            "is_ocr": false
+          },
+          "position": {
+            "x": 171.77,
+            "y": 141.5,
+            "width": 382.42,
+            "height": 102.3,
+            "unit": "point",
+            "coordinate_system": "page"
+          }
+        }
+      ]
+    }
+  ],
+  "processing": {
+    "extraction_methods": [
+      "PyMuPDF get_text('blocks')"
+    ],
+    "cleaning_applied": [
+      "Repeated footer removal"
+    ],
+    "ocr_applied": false,
+    "warnings": [
+      "Sample contains only page 1 for schema testing."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+
+{
+  "schema_version": "0.1",
+  "document": {
+    "document_id": "pptx_test_001",
+    "filename": "presentation_test.pptx",
+    "format": "pptx",
+    "number_of_units": 24
+  },
+  "units": [
+    {
+      "unit_id": "slide_1",
+      "unit_number": 1,
+      "unit_type": "slide",
+      "elements": [
+        {
+          "element_id": "slide_1_element_1",
+          "order": 1,
+          "type": "text",
+          "subtype": "title",
+          "text": "Introduction to CS106AX",
+          "classification": {
+            "category": "title_candidate",
+            "method": "rule_based",
+            "reason": "First text element of the slide."
+          },
+          "source": {
+            "extraction_method": "python-pptx",
+            "is_ocr": false
+          },
+          "position": null
+        },
+        {
+          "element_id": "slide_1_element_2",
+          "order": 2,
+          "type": "text",
+          "subtype": "metadata",
+          "text": "Jerry Cain\nCS106AX\nSeptember 23, 2026\nslides courtesy of Eric Roberts",
+          "classification": {
+            "category": "metadata_candidate",
+            "method": "rule_based",
+            "reason": "Contains presentation author, course, date and attribution."
+          },
+          "source": {
+            "extraction_method": "python-pptx",
+            "is_ocr": false
+          },
+          "position": null
+        }
+      ]
+    }
+  ],
+  "processing": {
+    "extraction_methods": [
+      "python-pptx recursive shape extraction"
+    ],
+    "cleaning_applied": [
+      "Vertical tab normalization"
+    ],
+    "ocr_applied": false,
+    "warnings": [
+      "Sample contains only slide 1 for schema testing.",
+      "Position information is not available in the current extracted JSON."
+    ]
+  }
+}

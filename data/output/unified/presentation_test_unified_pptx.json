@@ -1,0 +1,3426 @@
+{
+    "schema_version": "0.1",
+    "document": {
+        "document_id": "presentation_test_pptx",
+        "filename": "presentation_test.pptx",
+        "format": "pptx",
+        "number_of_units": 24,
+        "metadata": {
+            "number_of_images": 13
+        }
+    },
+    "units": [
+        {
+            "unit_id": "slide_1",
+            "unit_number": 1,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Introduction to CS106AX",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "metadata",
+                    "text": "Jerry Cain\nCS106AX\nSeptember 23, 2026\nslides courtesy of Eric Roberts",
+                    "classification": {
+                        "category": "metadata_candidate",
+                        "method": "rule_based",
+                        "reason": "Presentation metadata detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_2",
+            "unit_number": 2,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Course Description",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "CS106AX: Programming Methodologies in JavaScript and Python\n\nIntroduction to the engineering of computer and web applications emphasizing modern software engineering principles: object-oriented design, decomposition, encapsulation, abstraction, and testing. This course targets an audience with prior programming experience, and that prior experience is leveraged so material can be covered in greater depth.\n\nTerms: Aut | Units: 3-5 | UG Reqs: WAY-FR | Grading: Letter or CR/NC",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "CS106AX satisfies the same WAYS requirements as any other CS106A offering.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_3",
+            "unit_number": 3,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Why JavaScript?",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "When CS106A adopted Java some 20 years ago, we—along with many others in the computing industry—expected it to become the \"language of the web\".",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "That didn’t happen.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "Today, the core \"language of the web\" is JavaScript, which has become one of the most widely used languages in industry.\nJavaScript expert Douglas Crockford has described JavaScript—provided you avoid some of its most frequently abused features—as \"a beautiful, elegant, highly expressive language\". I believe it’s also ideal for a first course in programming.\nIt is, in my opinion, syntactically easier to learn than Java.\nThere are far fewer details to memorize.\nIt offers cleaner implementations of many key language features.\nIt is natively supported by every major web browser.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple complete explanatory sentences detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "other",
+                    "text": "😢",
+                    "classification": {
+                        "category": "other_candidate",
+                        "method": "rule_based",
+                        "reason": "No meaningful alphanumeric content"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_4",
+            "unit_number": 4,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Why Python?",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "Stanford’s CS106A course adopted Python as its language of instruction about seven years ago.\nThe name of the language does not come from the snake that graces the cover of the O’Reilly book but rather is \na tribute to Monty Python’s Flying Circus.\nJavaScript dominates the browser side of web \nprogramming, while Python has become particularly important in scientific computing, data analysis, machine learning, and AI.\nPython is a general-purpose language with a huge collection of useful libraries, and many of those libraries perform demanding computations using highly optimized code written in C and C++.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple complete explanatory sentences detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "slide_4_image_1",
+                    "order": 3,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_4_image_1"
+                    },
+                    "position": {
+                        "x": 7184122,
+                        "y": 2575277,
+                        "width": 914,
+                        "height": 454,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_04_image_01.png",
+                        "content_type": "image/png",
+                        "width": 914,
+                        "height": 454,
+                        "size_bytes": 178794,
+                        "shape_name": "Picture 1"
+                    }
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_5",
+            "unit_number": 5,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "The Web’s Client-Server Model",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "O",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "1. The user launches a web browser.",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Numbered or bulleted list detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "2. The user requests a web page.",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Numbered or bulleted list detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "3. The browser sends a request for an HTML document.",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Numbered or bulleted list detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "4. The server sends back an HTML document.",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Numbered or bulleted list detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "5. The browser interprets the HTML and renders the page.",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Numbered or bulleted list detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "https://www.instagram.com",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "index.html",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "10",
+                    "order": 10,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "client browser",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "10"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "11",
+                    "order": 11,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "web server",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "11"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "slide_5_image_1",
+                    "order": 12,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_5_image_1"
+                    },
+                    "position": {
+                        "x": 1183317,
+                        "y": 1826699,
+                        "width": 1112,
+                        "height": 790,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_05_image_01.png",
+                        "content_type": "image/png",
+                        "width": 1112,
+                        "height": 790,
+                        "size_bytes": 526648,
+                        "shape_name": "Picture 1"
+                    }
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_6",
+            "unit_number": 6,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Why Both JavaScript and Python",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "Modern web pages depend on three related technologies: HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript.\nThese tools are used to manage different parts of a web page:\nHTML is used to specify content, structure, and hierarchy.\nCSS is used to control appearance and formatting.\nJavaScript makes the page interactive and allows it to function like a desktop application running in a browser.\nMany major web properties—e.g., Gmail, Instagram, Dropbox, and Spotify—use Python extensively on the server.\nBy learning both languages, you’ll understand how web apps—both the client and server endpoints—are implemented.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple complete explanatory sentences detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_7",
+            "unit_number": 7,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 1",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "September 21",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "observing Yom Kipper\nno lecture",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "23",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Introductions and syllabus\nWhy two languages?\nSimple JavaScript programs",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "25",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Basic Functions\nControl Idioms\nDecomposition",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Textbook: Chapters 2 - 5",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_8",
+            "unit_number": 8,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 2",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "September 28",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "CS106AX Graphics\nGObject hierarchy",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "30",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Event-driven programming\nFunctions as data\nClosures\nMouse events",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "October 2",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Event-driven programming\nAdvanced closures\nImages",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assignment 1 Out\nTextbook: Chapters 2 – 5",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Textbook: Sections 6.1 – 6.4",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "10",
+                    "order": 10,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Textbook: Sections 6.1 – 6.4",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "10"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "11",
+                    "order": 11,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "JavaScript makes several powerful programming ideas—e.g., closures and event-driven programming—central to everyday programming much earlier than most students encounter them in C++, Java, or Python.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "11"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_9",
+            "unit_number": 9,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 3",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "7",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Simple strings\nString methods\nString algorithms",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "9",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Simple arrays\nArray methods\nArray algorithms",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "October 5",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "One-shot functions\nTimer functions\nAnimations",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assignment 1 In, Assignment 2 Out\nTextbook: Sections 6.5 - 6.6",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Textbook: Sections 7.1 – 7.5",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "10",
+                    "order": 10,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Textbook: Sections 8.1 – 8.6",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "10"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_10",
+            "unit_number": 10,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 4",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "October 12",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Simple aggregate objects\nObject construction\nJSON and eval",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "14",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Binary representation\nASCII and Unicode\nRep-sensitive algorithms",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "16",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Cryptography\nEncryption techniques\nThe Enigma Machine",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assignment 2 In, Assignment 3 Out\nTextbook: Sections 9.1 - 9.2",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Textbook: Sections 7.1 – 7.5",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "10",
+                    "order": 10,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Textbook: Section 7.6",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "10"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "11",
+                    "order": 11,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "JSON and eval expose JavaScript’s unusually dynamic relationship between data, objects, and code. Objects can easily be converted into textual data and reconstructed from that data using JSON; similarly, program code can itself be represented as text and, with eval, turned back into executable code.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "11"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_11",
+            "unit_number": 11,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 5",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "October 19",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "JavaScript wrap",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "21",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Simple Python programs\nControl idioms\nModules and import",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "23",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Python Strings\nSlices",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Assignment 3 In, Assignment 4 Out",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Reader: Chapters 1 - 4",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "10",
+                    "order": 10,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Reader: Chapter 6",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "10"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_12",
+            "unit_number": 12,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 6",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "October 26",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Python lists\nList methods",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "28",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Python dictionaries\nLarge data sets",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "30",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Introduction to OO Design\nDesigning simple objects",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Midterm Exam:\nTuesday, October 27\n3:45 P.M. or 7:00 P.M",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assignment 4  In\nTextbook: Chapter 7",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "10",
+                    "order": 10,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Reader: Section 11.1",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "10"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "11",
+                    "order": 11,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assignment 5 Out\nReader: Sections 9.1 – 9.3",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "11"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_13",
+            "unit_number": 13,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 7",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "4",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Data-driven design\nThe Teaching Machine",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "6",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "Overview of Adventure!",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "November 2",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Advanced OO design\nConstructors\nInternal representations",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Reader: Sections 12.1 – 12.3",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assign5 Out\nReader: Section 12.4",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "10",
+                    "order": 10,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assign5 Out\nAssignment 5 In, Assignment 6 Out",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "10"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "11",
+                    "order": 11,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "Data-driven design moves information about what a program should do out of the control flow and into language-agnostic data structures that general-purpose code can interpret.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "11"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_14",
+            "unit_number": 14,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 8",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "November 9",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "HTML and the DOM\nInteractors\nNative events",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "11",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Introduction to CSS\nSelectors, Classes, Rules\nInline Styling",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "13",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Client-Server Paradigm\nLife of an HTML page\nBasic HTTP",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Textbook: Sections 12.1 – 12.2",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assign5 Out\nTextbook: Sections 12.3 – 12.4",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "10",
+                    "order": 10,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assign5 Out\nAssignment 6 In, Assignment 7 Out",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "10"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "11",
+                    "order": 11,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "This is the week where JavaScript and Python come together: JavaScript controls what happens in the browser, Python handles work on the server, and together they let us architect and implement bona fide web applications.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "11"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_15",
+            "unit_number": 15,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 9",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "18",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Accessing the DOM in JavaScript\ndocument and window",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "20",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Web Programming Wrap",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "November 16",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Async programming\nPayload Types\nAPIs",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assign5 Out\nAssignment 7 In, Assignment 8 Out",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "This week completes the web-programming story: JavaScript communicates asynchronously with servers and APIs, processes the data that comes back, and updates the page in response—all without reloading it.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_16",
+            "unit_number": 16,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Syllabus—Week 10 and Beyond",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Final Exam:\nMonday, December 7\n8:30 A.M.",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Review Session:\nSunday, December 6\n12:00 P.M.",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "November 30",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Guest Speaker: Christina Wodtke on HCI",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "December 2",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Guest Speaker: Kayvon\nFatahalian on Graphics",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "4",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Life After CS106AX",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "10",
+                    "order": 10,
+                    "type": "text",
+                    "subtype": "list",
+                    "text": "Assign5 Out\nAssignment 8 In",
+                    "classification": {
+                        "category": "list_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple short lines detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "10"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_17",
+            "unit_number": 17,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Assignments in CS106AX",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "Assignments in CS106AX are due at 5:00P.M.  Assignments that come in after 5:00P.M will be considered late.\nEveryone in CS106AX starts the quarter with three \"late days\" that you can use at any point you need some extra time.  In my courses, late days correspond to class meetings, so that, if an assignment is due on Monday and you turn it in on Wednesday, that counts as one late day.\nExtensions can only be approved by the TA, Ben Yan.\nAssignments are graded by your section leader, who discusses your work in an interactive, one-on-one grading session.\nEach assignment is given two grades: one for functionality and one for programming style. Style matters. Tech companies in Silicon Valley expect their software developers to author code that everyone else can read and maintain.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple complete explanatory sentences detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_18",
+            "unit_number": 18,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "The CS106AX Grading Scale",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "Functionality and style grades for the assignments use the following scale:",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "description",
+                    "text": "Satisfies all requirements of the assignment.",
+                    "classification": {
+                        "category": "description_candidate",
+                        "method": "rule_based",
+                        "reason": "Description associated with grading criteria"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "description",
+                    "text": "Meets most requirements, but with some problems.",
+                    "classification": {
+                        "category": "description_candidate",
+                        "method": "rule_based",
+                        "reason": "Description associated with grading criteria"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "description",
+                    "text": "Some more serious problems.",
+                    "classification": {
+                        "category": "description_candidate",
+                        "method": "rule_based",
+                        "reason": "Description associated with grading criteria"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "description",
+                    "text": "Even worse than that.",
+                    "classification": {
+                        "category": "description_candidate",
+                        "method": "rule_based",
+                        "reason": "Description associated with grading criteria"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "description",
+                    "text": "Represents unsatisfactory work.",
+                    "classification": {
+                        "category": "description_candidate",
+                        "method": "rule_based",
+                        "reason": "Description associated with grading criteria"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "8",
+                    "order": 8,
+                    "type": "text",
+                    "subtype": "description",
+                    "text": "Exceeds requirements in nontrivial ways.",
+                    "classification": {
+                        "category": "description_candidate",
+                        "method": "rule_based",
+                        "reason": "Description associated with grading criteria"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "8"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "9",
+                    "order": 9,
+                    "type": "text",
+                    "subtype": "description",
+                    "text": "A submission so good it \"makes you weep\".",
+                    "classification": {
+                        "category": "description_candidate",
+                        "method": "rule_based",
+                        "reason": "Description associated with grading criteria"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "9"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "slide_18_image_1",
+                    "order": 10,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_1"
+                    },
+                    "position": {
+                        "x": 816,
+                        "y": 2151,
+                        "width": 81,
+                        "height": 65,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_01.png",
+                        "content_type": "image/png",
+                        "width": 81,
+                        "height": 65,
+                        "size_bytes": 1184,
+                        "shape_name": "Picture 6"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_2",
+                    "order": 11,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_2"
+                    },
+                    "position": {
+                        "x": 1040,
+                        "y": 2151,
+                        "width": 65,
+                        "height": 65,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_02.png",
+                        "content_type": "image/png",
+                        "width": 65,
+                        "height": 65,
+                        "size_bytes": 1057,
+                        "shape_name": "Picture 7"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_3",
+                    "order": 12,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_3"
+                    },
+                    "position": {
+                        "x": 816,
+                        "y": 2432,
+                        "width": 81,
+                        "height": 65,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_03.png",
+                        "content_type": "image/png",
+                        "width": 81,
+                        "height": 65,
+                        "size_bytes": 1184,
+                        "shape_name": "Picture 10"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_4",
+                    "order": 13,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_4"
+                    },
+                    "position": {
+                        "x": 816,
+                        "y": 2553,
+                        "width": 81,
+                        "height": 65,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_04.png",
+                        "content_type": "image/png",
+                        "width": 81,
+                        "height": 65,
+                        "size_bytes": 1184,
+                        "shape_name": "Picture 14"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_5",
+                    "order": 14,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_5"
+                    },
+                    "position": {
+                        "x": 1040,
+                        "y": 2609,
+                        "width": 65,
+                        "height": 17,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_05.png",
+                        "content_type": "image/png",
+                        "width": 65,
+                        "height": 17,
+                        "size_bytes": 187,
+                        "shape_name": "Picture 15"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_6",
+                    "order": 15,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_6"
+                    },
+                    "position": {
+                        "x": 816,
+                        "y": 3151,
+                        "width": 65,
+                        "height": 17,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_06.png",
+                        "content_type": "image/png",
+                        "width": 65,
+                        "height": 17,
+                        "size_bytes": 187,
+                        "shape_name": "Picture 18"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_7",
+                    "order": 16,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_7"
+                    },
+                    "position": {
+                        "x": 816,
+                        "y": 3216,
+                        "width": 65,
+                        "height": 17,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_07.png",
+                        "content_type": "image/png",
+                        "width": 65,
+                        "height": 17,
+                        "size_bytes": 187,
+                        "shape_name": "Picture 22"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_8",
+                    "order": 17,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_8"
+                    },
+                    "position": {
+                        "x": 1002,
+                        "y": 3216,
+                        "width": 65,
+                        "height": 17,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_08.png",
+                        "content_type": "image/png",
+                        "width": 65,
+                        "height": 17,
+                        "size_bytes": 187,
+                        "shape_name": "Picture 23"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_9",
+                    "order": 18,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_9"
+                    },
+                    "position": {
+                        "x": 816,
+                        "y": 1749,
+                        "width": 65,
+                        "height": 65,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_09.png",
+                        "content_type": "image/png",
+                        "width": 65,
+                        "height": 65,
+                        "size_bytes": 1057,
+                        "shape_name": "Picture 26"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_10",
+                    "order": 19,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_10"
+                    },
+                    "position": {
+                        "x": 816,
+                        "y": 1392,
+                        "width": 65,
+                        "height": 65,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_10.png",
+                        "content_type": "image/png",
+                        "width": 65,
+                        "height": 65,
+                        "size_bytes": 1057,
+                        "shape_name": "Picture 30"
+                    }
+                },
+                {
+                    "element_id": "slide_18_image_11",
+                    "order": 20,
+                    "type": "image",
+                    "subtype": "illustration",
+                    "text": null,
+                    "source": {
+                        "extraction_method": "python-pptx image extraction",
+                        "is_ocr": false,
+                        "original_element_id": "slide_18_image_11"
+                    },
+                    "position": {
+                        "x": 1008,
+                        "y": 1392,
+                        "width": 65,
+                        "height": 65,
+                        "unit": "EMU",
+                        "coordinate_system": "slide"
+                    },
+                    "metadata": {
+                        "filename": "slide_18_image_11.png",
+                        "content_type": "image/png",
+                        "width": 65,
+                        "height": 65,
+                        "size_bytes": 1057,
+                        "shape_name": "Picture 31"
+                    }
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_19",
+            "unit_number": 19,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Honor Code Rules",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Rule 1:",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "You must not look at solutions or program code that is not your own. This includes anything AI-generated.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Rule 2:",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "5",
+                    "order": 5,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "You must not share your assignment solution code with other students.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "5"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "6",
+                    "order": 6,
+                    "type": "text",
+                    "subtype": "label",
+                    "text": "Rule 3:",
+                    "classification": {
+                        "category": "label_candidate",
+                        "method": "rule_based",
+                        "reason": "Short text without sentence punctuation"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "6"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "7",
+                    "order": 7,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "You must indicate on your submission any assistance you received, no matter how small.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "7"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_20",
+            "unit_number": 20,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "The Structure of an HTML File",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "An HTML file consists of the text to be displayed on the page, interspersed with various directives enclosed in angle brackets, which are known as tags.\nHTML tags generally occur in pairs. The opening tag begins with the tag name. The corresponding closing tag has the same name preceded by a slash. The effect of the tag applies to everything between the opening and closing tags.\nThe only HTML tags you will need before Week 7 of the course course appear in the template on the next page, which describes the structure of the HTML index file (and by convention is called index.html.)",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple complete explanatory sentences detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_21",
+            "unit_number": 21,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Standard HTML Document Pattern",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "code",
+                    "text": "<!DOCTYPE html>\n<html>\n <head>\n  <title>title of the page</title>\n     One or more script tags to load JavaScript code.\n </head>\n <body onload=\"function()\">\n     Contents of the page, if any.\n </body>\n</html>",
+                    "classification": {
+                        "category": "code_candidate",
+                        "method": "rule_based",
+                        "reason": "Programming code structure detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "The following components of index.html are standardized:\nEvery file begins with a <!DOCTYPE html> declaration.\nThe entire document is enclosed in <html> and </html>.\nThe <head> section provides information about the page, including its title and any files it needs to load.\nThe <body> contains the content of the page.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple complete explanatory sentences detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_22",
+            "unit_number": 22,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Creating the JavaScript Program File",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "The first step in running a JavaScript program is creating a file that contains the definitions of the functions, along with comments that give human readers a better understanding of what the program does.\nHere, for example, is the complete HelloWorld.js file:",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "code",
+                    "text": "/*\n * File: HelloWorld.js\n * -------------------\n * This program displays \"hello, world\" on the console.  It\n * is inspired by the first program in Brian Kernighan and\n * Dennis Ritchie's classic book, The C Programming Language.\n */\n\nfunction HelloWorld() {\n   console.log(\"hello, world\");\n}",
+                    "classification": {
+                        "category": "code_candidate",
+                        "method": "rule_based",
+                        "reason": "Programming code structure detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_23",
+            "unit_number": 23,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Creating the HTML File (Version 1)",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "A simple HTML file that loads the HelloWorld.js program looks like this:",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "General explanatory text"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "code",
+                    "text": "<!DOCTYPE html>\n<html>\n <head>\n  <title>Hello World</title>\n  <script type=\"text/javascript\" src=\"HelloWorld.js\"></script>\n </head>\n <body onload=\"HelloWorld()\"></body>\n</html>",
+                    "classification": {
+                        "category": "code_candidate",
+                        "method": "rule_based",
+                        "reason": "Programming code structure detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "4",
+                    "order": 4,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "This file asks the browser to load the file HelloWorld.js and then call the function HelloWorld once the page is loaded.\nThe problem with this strategy is that it is hard \"to find out where your output went\" as Kernighan and Ritchie mention.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple complete explanatory sentences detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "4"
+                    },
+                    "position": null
+                }
+            ]
+        },
+        {
+            "unit_id": "slide_24",
+            "unit_number": 24,
+            "unit_type": "slide",
+            "elements": [
+                {
+                    "element_id": "1",
+                    "order": 1,
+                    "type": "text",
+                    "subtype": "title",
+                    "text": "Creating the HTML File (Version 2)",
+                    "classification": {
+                        "category": "title_candidate",
+                        "method": "rule_based",
+                        "reason": "First text element of the slide"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "1"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "2",
+                    "order": 2,
+                    "type": "text",
+                    "subtype": "paragraph",
+                    "text": "The output from the console log appears in different places in different browsers and usually requires the user make an effort to search for and find the output.\nTo make the console log easier to find, we provide a library called JSConsole.js that redirects the console log to a much more visible region of the web page.",
+                    "classification": {
+                        "category": "paragraph_candidate",
+                        "method": "rule_based",
+                        "reason": "Multiple complete explanatory sentences detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "2"
+                    },
+                    "position": null
+                },
+                {
+                    "element_id": "3",
+                    "order": 3,
+                    "type": "text",
+                    "subtype": "code",
+                    "text": "<!DOCTYPE html>\n<html>\n <head>\n  <title>Hello World</title>\n   <script type=\"text/javascript\" src=\"JSConsole.js\"></script>\n   <script type=\"text/javascript\" src=\"HelloWorld.js\"></script>\n </head>\n <body onload=\"HelloWorld()\"></body>\n</html>",
+                    "classification": {
+                        "category": "code_candidate",
+                        "method": "rule_based",
+                        "reason": "Programming code structure detected"
+                    },
+                    "source": {
+                        "extraction_method": "python-pptx",
+                        "is_ocr": false,
+                        "original_element_id": "3"
+                    },
+                    "position": null
+                }
+            ]
+        }
+    ]
+}
