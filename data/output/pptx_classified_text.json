@@ -1,0 +1,1082 @@
+[
+    {
+        "slide_number": 1,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Introduction to CS106AX",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "Jerry Cain\nCS106AX\nSeptember 23, 2026\nslides courtesy of Eric Roberts",
+                "category": "metadata_candidate",
+                "reason": "Presentation metadata detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 2,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Course Description",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "CS106AX: Programming Methodologies in JavaScript and Python\n\nIntroduction to the engineering of computer and web applications emphasizing modern software engineering principles: object-oriented design, decomposition, encapsulation, abstraction, and testing. This course targets an audience with prior programming experience, and that prior experience is leveraged so material can be covered in greater depth.\n\nTerms: Aut | Units: 3-5 | UG Reqs: WAY-FR | Grading: Letter or CR/NC",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            },
+            {
+                "element_id": 3,
+                "text": "CS106AX satisfies the same WAYS requirements as any other CS106A offering.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            }
+        ]
+    },
+    {
+        "slide_number": 3,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Why JavaScript?",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "When CS106A adopted Java some 20 years ago, we—along with many others in the computing industry—expected it to become the \"language of the web\".",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            },
+            {
+                "element_id": 3,
+                "text": "That didn’t happen.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            },
+            {
+                "element_id": 4,
+                "text": "Today, the core \"language of the web\" is JavaScript, which has become one of the most widely used languages in industry.\nJavaScript expert Douglas Crockford has described JavaScript—provided you avoid some of its most frequently abused features—as \"a beautiful, elegant, highly expressive language\". I believe it’s also ideal for a first course in programming.\nIt is, in my opinion, syntactically easier to learn than Java.\nThere are far fewer details to memorize.\nIt offers cleaner implementations of many key language features.\nIt is natively supported by every major web browser.",
+                "category": "paragraph_candidate",
+                "reason": "Multiple complete explanatory sentences detected"
+            },
+            {
+                "element_id": 5,
+                "text": "😢",
+                "category": "other_candidate",
+                "reason": "No meaningful alphanumeric content"
+            }
+        ]
+    },
+    {
+        "slide_number": 4,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Why Python?",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "Stanford’s CS106A course adopted Python as its language of instruction about seven years ago.\nThe name of the language does not come from the snake that graces the cover of the O’Reilly book but rather is \na tribute to Monty Python’s Flying Circus.\nJavaScript dominates the browser side of web \nprogramming, while Python has become particularly important in scientific computing, data analysis, machine learning, and AI.\nPython is a general-purpose language with a huge collection of useful libraries, and many of those libraries perform demanding computations using highly optimized code written in C and C++.",
+                "category": "paragraph_candidate",
+                "reason": "Multiple complete explanatory sentences detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 5,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "The Web’s Client-Server Model",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "O",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "1. The user launches a web browser.",
+                "category": "list_candidate",
+                "reason": "Numbered or bulleted list detected"
+            },
+            {
+                "element_id": 4,
+                "text": "2. The user requests a web page.",
+                "category": "list_candidate",
+                "reason": "Numbered or bulleted list detected"
+            },
+            {
+                "element_id": 5,
+                "text": "3. The browser sends a request for an HTML document.",
+                "category": "list_candidate",
+                "reason": "Numbered or bulleted list detected"
+            },
+            {
+                "element_id": 6,
+                "text": "4. The server sends back an HTML document.",
+                "category": "list_candidate",
+                "reason": "Numbered or bulleted list detected"
+            },
+            {
+                "element_id": 7,
+                "text": "5. The browser interprets the HTML and renders the page.",
+                "category": "list_candidate",
+                "reason": "Numbered or bulleted list detected"
+            },
+            {
+                "element_id": 8,
+                "text": "https://www.instagram.com",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 9,
+                "text": "index.html",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 10,
+                "text": "client browser",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 11,
+                "text": "web server",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            }
+        ]
+    },
+    {
+        "slide_number": 6,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Why Both JavaScript and Python",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "Modern web pages depend on three related technologies: HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript.\nThese tools are used to manage different parts of a web page:\nHTML is used to specify content, structure, and hierarchy.\nCSS is used to control appearance and formatting.\nJavaScript makes the page interactive and allows it to function like a desktop application running in a browser.\nMany major web properties—e.g., Gmail, Instagram, Dropbox, and Spotify—use Python extensively on the server.\nBy learning both languages, you’ll understand how web apps—both the client and server endpoints—are implemented.",
+                "category": "paragraph_candidate",
+                "reason": "Multiple complete explanatory sentences detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 7,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 1",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "September 21",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "observing Yom Kipper\nno lecture",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 4,
+                "text": "23",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Introductions and syllabus\nWhy two languages?\nSimple JavaScript programs",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 6,
+                "text": "25",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "Basic Functions\nControl Idioms\nDecomposition",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "Textbook: Chapters 2 - 5",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            }
+        ]
+    },
+    {
+        "slide_number": 8,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 2",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "September 28",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "CS106AX Graphics\nGObject hierarchy",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 4,
+                "text": "30",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Event-driven programming\nFunctions as data\nClosures\nMouse events",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 6,
+                "text": "October 2",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "Event-driven programming\nAdvanced closures\nImages",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "Assignment 1 Out\nTextbook: Chapters 2 – 5",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 9,
+                "text": "Textbook: Sections 6.1 – 6.4",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 10,
+                "text": "Textbook: Sections 6.1 – 6.4",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 11,
+                "text": "JavaScript makes several powerful programming ideas—e.g., closures and event-driven programming—central to everyday programming much earlier than most students encounter them in C++, Java, or Python.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            }
+        ]
+    },
+    {
+        "slide_number": 9,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 3",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "7",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "Simple strings\nString methods\nString algorithms",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 4,
+                "text": "9",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Simple arrays\nArray methods\nArray algorithms",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 6,
+                "text": "October 5",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "One-shot functions\nTimer functions\nAnimations",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "Assignment 1 In, Assignment 2 Out\nTextbook: Sections 6.5 - 6.6",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 9,
+                "text": "Textbook: Sections 7.1 – 7.5",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 10,
+                "text": "Textbook: Sections 8.1 – 8.6",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            }
+        ]
+    },
+    {
+        "slide_number": 10,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 4",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "October 12",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "Simple aggregate objects\nObject construction\nJSON and eval",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 4,
+                "text": "14",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Binary representation\nASCII and Unicode\nRep-sensitive algorithms",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 6,
+                "text": "16",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "Cryptography\nEncryption techniques\nThe Enigma Machine",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "Assignment 2 In, Assignment 3 Out\nTextbook: Sections 9.1 - 9.2",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 9,
+                "text": "Textbook: Sections 7.1 – 7.5",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 10,
+                "text": "Textbook: Section 7.6",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 11,
+                "text": "JSON and eval expose JavaScript’s unusually dynamic relationship between data, objects, and code. Objects can easily be converted into textual data and reconstructed from that data using JSON; similarly, program code can itself be represented as text and, with eval, turned back into executable code.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            }
+        ]
+    },
+    {
+        "slide_number": 11,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 5",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "October 19",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "JavaScript wrap",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 4,
+                "text": "21",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Simple Python programs\nControl idioms\nModules and import",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 6,
+                "text": "23",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "Python Strings\nSlices",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "Assignment 3 In, Assignment 4 Out",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 9,
+                "text": "Reader: Chapters 1 - 4",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 10,
+                "text": "Reader: Chapter 6",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            }
+        ]
+    },
+    {
+        "slide_number": 12,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 6",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "October 26",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "Python lists\nList methods",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 4,
+                "text": "28",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Python dictionaries\nLarge data sets",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 6,
+                "text": "30",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "Introduction to OO Design\nDesigning simple objects",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "Midterm Exam:\nTuesday, October 27\n3:45 P.M. or 7:00 P.M",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 9,
+                "text": "Assignment 4  In\nTextbook: Chapter 7",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 10,
+                "text": "Reader: Section 11.1",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 11,
+                "text": "Assignment 5 Out\nReader: Sections 9.1 – 9.3",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 13,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 7",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "4",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "Data-driven design\nThe Teaching Machine",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 4,
+                "text": "6",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Overview of Adventure!",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            },
+            {
+                "element_id": 6,
+                "text": "November 2",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "Advanced OO design\nConstructors\nInternal representations",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "Reader: Sections 12.1 – 12.3",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 9,
+                "text": "Assign5 Out\nReader: Section 12.4",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 10,
+                "text": "Assign5 Out\nAssignment 5 In, Assignment 6 Out",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 11,
+                "text": "Data-driven design moves information about what a program should do out of the control flow and into language-agnostic data structures that general-purpose code can interpret.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            }
+        ]
+    },
+    {
+        "slide_number": 14,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 8",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "November 9",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "HTML and the DOM\nInteractors\nNative events",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 4,
+                "text": "11",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Introduction to CSS\nSelectors, Classes, Rules\nInline Styling",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 6,
+                "text": "13",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "Client-Server Paradigm\nLife of an HTML page\nBasic HTTP",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "Textbook: Sections 12.1 – 12.2",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 9,
+                "text": "Assign5 Out\nTextbook: Sections 12.3 – 12.4",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 10,
+                "text": "Assign5 Out\nAssignment 6 In, Assignment 7 Out",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 11,
+                "text": "This is the week where JavaScript and Python come together: JavaScript controls what happens in the browser, Python handles work on the server, and together they let us architect and implement bona fide web applications.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            }
+        ]
+    },
+    {
+        "slide_number": 15,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 9",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "18",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "Accessing the DOM in JavaScript\ndocument and window",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 4,
+                "text": "20",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Web Programming Wrap",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 6,
+                "text": "November 16",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "Async programming\nPayload Types\nAPIs",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "Assign5 Out\nAssignment 7 In, Assignment 8 Out",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 9,
+                "text": "This week completes the web-programming story: JavaScript communicates asynchronously with servers and APIs, processes the data that comes back, and updates the page in response—all without reloading it.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            }
+        ]
+    },
+    {
+        "slide_number": 16,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Syllabus—Week 10 and Beyond",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "Final Exam:\nMonday, December 7\n8:30 A.M.",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 3,
+                "text": "Review Session:\nSunday, December 6\n12:00 P.M.",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 4,
+                "text": "November 30",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "Guest Speaker: Christina Wodtke on HCI",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 6,
+                "text": "December 2",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "Guest Speaker: Kayvon\nFatahalian on Graphics",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            },
+            {
+                "element_id": 8,
+                "text": "4",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 9,
+                "text": "Life After CS106AX",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 10,
+                "text": "Assign5 Out\nAssignment 8 In",
+                "category": "list_candidate",
+                "reason": "Multiple short lines detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 17,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Assignments in CS106AX",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "Assignments in CS106AX are due at 5:00P.M.  Assignments that come in after 5:00P.M will be considered late.\nEveryone in CS106AX starts the quarter with three \"late days\" that you can use at any point you need some extra time.  In my courses, late days correspond to class meetings, so that, if an assignment is due on Monday and you turn it in on Wednesday, that counts as one late day.\nExtensions can only be approved by the TA, Ben Yan.\nAssignments are graded by your section leader, who discusses your work in an interactive, one-on-one grading session.\nEach assignment is given two grades: one for functionality and one for programming style. Style matters. Tech companies in Silicon Valley expect their software developers to author code that everyone else can read and maintain.",
+                "category": "paragraph_candidate",
+                "reason": "Multiple complete explanatory sentences detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 18,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "The CS106AX Grading Scale",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "Functionality and style grades for the assignments use the following scale:",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            },
+            {
+                "element_id": 3,
+                "text": "Satisfies all requirements of the assignment.",
+                "category": "description_candidate",
+                "reason": "Description associated with grading criteria"
+            },
+            {
+                "element_id": 4,
+                "text": "Meets most requirements, but with some problems.",
+                "category": "description_candidate",
+                "reason": "Description associated with grading criteria"
+            },
+            {
+                "element_id": 5,
+                "text": "Some more serious problems.",
+                "category": "description_candidate",
+                "reason": "Description associated with grading criteria"
+            },
+            {
+                "element_id": 6,
+                "text": "Even worse than that.",
+                "category": "description_candidate",
+                "reason": "Description associated with grading criteria"
+            },
+            {
+                "element_id": 7,
+                "text": "Represents unsatisfactory work.",
+                "category": "description_candidate",
+                "reason": "Description associated with grading criteria"
+            },
+            {
+                "element_id": 8,
+                "text": "Exceeds requirements in nontrivial ways.",
+                "category": "description_candidate",
+                "reason": "Description associated with grading criteria"
+            },
+            {
+                "element_id": 9,
+                "text": "A submission so good it \"makes you weep\".",
+                "category": "description_candidate",
+                "reason": "Description associated with grading criteria"
+            }
+        ]
+    },
+    {
+        "slide_number": 19,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Honor Code Rules",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "Rule 1:",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 3,
+                "text": "You must not look at solutions or program code that is not your own. This includes anything AI-generated.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            },
+            {
+                "element_id": 4,
+                "text": "Rule 2:",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 5,
+                "text": "You must not share your assignment solution code with other students.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            },
+            {
+                "element_id": 6,
+                "text": "Rule 3:",
+                "category": "label_candidate",
+                "reason": "Short text without sentence punctuation"
+            },
+            {
+                "element_id": 7,
+                "text": "You must indicate on your submission any assistance you received, no matter how small.",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            }
+        ]
+    },
+    {
+        "slide_number": 20,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "The Structure of an HTML File",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "An HTML file consists of the text to be displayed on the page, interspersed with various directives enclosed in angle brackets, which are known as tags.\nHTML tags generally occur in pairs. The opening tag begins with the tag name. The corresponding closing tag has the same name preceded by a slash. The effect of the tag applies to everything between the opening and closing tags.\nThe only HTML tags you will need before Week 7 of the course course appear in the template on the next page, which describes the structure of the HTML index file (and by convention is called index.html.)",
+                "category": "paragraph_candidate",
+                "reason": "Multiple complete explanatory sentences detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 21,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Standard HTML Document Pattern",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "<!DOCTYPE html>\n<html>\n <head>\n  <title>title of the page</title>\n     One or more script tags to load JavaScript code.\n </head>\n <body onload=\"function()\">\n     Contents of the page, if any.\n </body>\n</html>",
+                "category": "code_candidate",
+                "reason": "Programming code structure detected"
+            },
+            {
+                "element_id": 3,
+                "text": "The following components of index.html are standardized:\nEvery file begins with a <!DOCTYPE html> declaration.\nThe entire document is enclosed in <html> and </html>.\nThe <head> section provides information about the page, including its title and any files it needs to load.\nThe <body> contains the content of the page.",
+                "category": "paragraph_candidate",
+                "reason": "Multiple complete explanatory sentences detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 22,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Creating the JavaScript Program File",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "The first step in running a JavaScript program is creating a file that contains the definitions of the functions, along with comments that give human readers a better understanding of what the program does.\nHere, for example, is the complete HelloWorld.js file:",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            },
+            {
+                "element_id": 3,
+                "text": "/*\n * File: HelloWorld.js\n * -------------------\n * This program displays \"hello, world\" on the console.  It\n * is inspired by the first program in Brian Kernighan and\n * Dennis Ritchie's classic book, The C Programming Language.\n */\n\nfunction HelloWorld() {\n   console.log(\"hello, world\");\n}",
+                "category": "code_candidate",
+                "reason": "Programming code structure detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 23,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Creating the HTML File (Version 1)",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "A simple HTML file that loads the HelloWorld.js program looks like this:",
+                "category": "paragraph_candidate",
+                "reason": "General explanatory text"
+            },
+            {
+                "element_id": 3,
+                "text": "<!DOCTYPE html>\n<html>\n <head>\n  <title>Hello World</title>\n  <script type=\"text/javascript\" src=\"HelloWorld.js\"></script>\n </head>\n <body onload=\"HelloWorld()\"></body>\n</html>",
+                "category": "code_candidate",
+                "reason": "Programming code structure detected"
+            },
+            {
+                "element_id": 4,
+                "text": "This file asks the browser to load the file HelloWorld.js and then call the function HelloWorld once the page is loaded.\nThe problem with this strategy is that it is hard \"to find out where your output went\" as Kernighan and Ritchie mention.",
+                "category": "paragraph_candidate",
+                "reason": "Multiple complete explanatory sentences detected"
+            }
+        ]
+    },
+    {
+        "slide_number": 24,
+        "content": [
+            {
+                "element_id": 1,
+                "text": "Creating the HTML File (Version 2)",
+                "category": "title_candidate",
+                "reason": "First text element of the slide"
+            },
+            {
+                "element_id": 2,
+                "text": "The output from the console log appears in different places in different browsers and usually requires the user make an effort to search for and find the output.\nTo make the console log easier to find, we provide a library called JSConsole.js that redirects the console log to a much more visible region of the web page.",
+                "category": "paragraph_candidate",
+                "reason": "Multiple complete explanatory sentences detected"
+            },
+            {
+                "element_id": 3,
+                "text": "<!DOCTYPE html>\n<html>\n <head>\n  <title>Hello World</title>\n   <script type=\"text/javascript\" src=\"JSConsole.js\"></script>\n   <script type=\"text/javascript\" src=\"HelloWorld.js\"></script>\n </head>\n <body onload=\"HelloWorld()\"></body>\n</html>",
+                "category": "code_candidate",
+                "reason": "Programming code structure detected"
+            }
+        ]
+    }
+]
